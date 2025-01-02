@@ -16,6 +16,11 @@ git add wl/cas.txt
 git commit -a -m "update"
 git push
 
+#Windows update
+./dns_probe.sh windowsupdate.txt 500 "windowsupdate.microsoft.com" "update.microsoft.com" "windowsupdate.com" "download.windowsupdate.com" "download.microsoft.com" "wustat.windows.com" "ntservicepack.microsoft.com" "stats.microsoft.com"
+git add wl/windowsupdate.txt
+git commit -a -m "update"
+git push
 
 #smtp.gmail.com
 ./dns_probe.sh smtp.gmail.com.txt 20000 "smtp.gmail.com"
