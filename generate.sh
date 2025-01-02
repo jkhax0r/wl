@@ -10,6 +10,13 @@ git add wl/cloudfront-ips.txt
 git commit -a -m "update"
 git push
 
+#smtp.gmail.com
+./dns_probe.sh smtp.gmail.com.txt 20000 "smtp.gmail.com"
+git add wl/smtp.gmail.com.txt
+git commit -a -m "update"
+git push
+
+
 # For sending gmail notifications
 ./dns_probe.sh google.txt 20000 "googleapis.com"
 echo "142.250.0.0/15" >> wl/google.txt
