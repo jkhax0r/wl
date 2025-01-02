@@ -9,7 +9,7 @@ fi
 
 
 
-domains=("i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "tmdb.org" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "thetvdb.com" "themoviedb.com" "lencr.org" "plex.tv" "www.plex.tv" "pubsub.plex.bz")
+#domains=("i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "tmdb.org" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "thetvdb.com" "themoviedb.com" "lencr.org" "plex.tv" "www.plex.tv" "pubsub.plex.bz")
 
 mkdir -p data
 mkdir -p wl
@@ -17,6 +17,8 @@ mkdir -p wl
 DOMAINS="$@"
 DNS_COUNT="$2"
 OUTPUT="$1"
+
+#echo "Output is $OUTPUT"
 
 # Get random N lines from file
 echo "192.168.20.100" > data/resolvers.txt
@@ -50,6 +52,9 @@ done
 echo "Wait for done"
 sleep 5
 x=0
+
+echo "" > wl/$OUTPUT
+
 for domain in $DOMAINS
 do
 	x=$((x+1))
@@ -59,7 +64,7 @@ do
 	awk '!a[$0]++' data/$domain.txt | sort | uniq | iprange > data/$domain.txt.tmp	
 	mv -f data/$domain.txt.tmp data/$domain.txt
 
-	echo "#$domain" > wl/$OUTPUT
+	echo "#$domain" >> wl/$OUTPUT
 	cat data/$domain.txt >> wl/$OUTPUT
 	echo "" >> wl/$OUTPUT
 done
