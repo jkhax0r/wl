@@ -11,7 +11,7 @@ git commit -a -m "update"
 git push
 
 #smtp.gmail.com
-./dns_probe.sh smtp.gmail.com.txt 20000 "smtp.gmail.com"
+./dns_probe.sh smtp.gmail.com.txt 200000 "smtp.gmail.com"
 git add wl/smtp.gmail.com.txt
 git commit -a -m "update"
 git push
