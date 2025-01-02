@@ -55,7 +55,7 @@ do
 	[[ $x -le 2 ]] && continue  #skip first 2 args
 
 	#Famous one-liner to store only unique lines in a file - http://www.catonmat.net/blog/awk-one-liners-explained-part-two/
-	awk '!a[$0]++' data/$domain.txt | sort > data/$domain.txt.tmp
+	awk '!a[$0]++' data/$domain.txt | sort | uniq | iprange > data/$domain.txt.tmp	
 	mv -f data/$domain.txt.tmp data/$domain.txt
 
 	echo "#$domain" >> wl/$OUTPUT
