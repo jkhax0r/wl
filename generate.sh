@@ -18,6 +18,13 @@ git add wl/plex.txt
 git commit -a -m "update"
 git push
 
+
+./dns_probe.sh smtp.gmail.com.txt 20000 "smtp.gmail.com"
+git add wl/smtp.gmail.com.txt
+git commit -a -m "update"
+git push
+
+
 #Ips allowed outbound 443/89
 ./dns_probe.sh yts.mx.txt 2000 "yts.mx" "updates.safing.io" "safing.io"
 git add wl/yts.mx.txt
