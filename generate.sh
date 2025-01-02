@@ -12,8 +12,7 @@ git push
 
 # For sending gmail notifications
 ./dns_probe.sh google.txt 20000 "googleapis.com"
-echo "142.250.0.0/16" >> wl/google.txt
-echo "142.251.0.0/16" >> wl/google.txt
+echo "142.250.0.0/15" >> wl/google.txt
 git add wl/google.txt
 git commit -a -m "update"
 git push
