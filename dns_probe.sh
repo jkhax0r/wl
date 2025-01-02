@@ -17,7 +17,6 @@ mkdir -p wl
 DOMAINS="$@ 192.168.20.100"
 DNS_COUNT="$2"
 OUTPUT="$1"
-echo "" > wl/$OUTPUT
 
 # Get random N lines from file
 shuf -n $DNS_COUNT resolvers/resolvers.txt > data/resolvers.txt
@@ -58,7 +57,7 @@ do
 	awk '!a[$0]++' data/$domain.txt | sort | uniq | iprange > data/$domain.txt.tmp	
 	mv -f data/$domain.txt.tmp data/$domain.txt
 
-	echo "#$domain" >> wl/$OUTPUT
+	echo "#$domain" > wl/$OUTPUT
 	cat data/$domain.txt >> wl/$OUTPUT
 	echo "" >> wl/$OUTPUT
 done
