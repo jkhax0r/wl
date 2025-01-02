@@ -14,12 +14,14 @@ domains=("i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "
 mkdir -p data
 mkdir -p wl
 
-DOMAINS="$@ 192.168.20.100"
+DOMAINS="$@"
 DNS_COUNT="$2"
 OUTPUT="$1"
 
 # Get random N lines from file
-shuf -n $DNS_COUNT resolvers/resolvers.txt > data/resolvers.txt
+echo "192.168.20.100" > data/resolvers.txt
+shuf -n $DNS_COUNT resolvers/resolvers.txt >> data/resolvers.txt
+
 
 x=0
 for domain in $DOMAINS
