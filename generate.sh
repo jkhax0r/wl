@@ -10,6 +10,13 @@ git add wl/cloudfront-ips.txt
 git commit -a -m "update"
 git push
 
+#Certificate authorities
+./dns_probe.sh cas.txt 20000 "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.i.lencr.org" "r10.i.lencr.org" "lencr.org"
+git add wl/cas.txt
+git commit -a -m "update"
+git push
+
+
 #smtp.gmail.com
 ./dns_probe.sh smtp.gmail.com.txt 20000 "smtp.gmail.com"
 git add wl/smtp.gmail.com.txt
