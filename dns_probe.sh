@@ -14,7 +14,7 @@ domains=("i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "
 mkdir -p data
 mkdir -p wl
 
-DOMAINS="192.168.20.100 $@"
+DOMAINS="$@ 192.168.20.100"
 DNS_COUNT="$2"
 OUTPUT="$1"
 echo "" > wl/$OUTPUT
