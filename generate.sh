@@ -12,7 +12,7 @@ git push
 
 
 
-./dns_probe.sh plex.txt 2000 "i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "tmdb.org" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "thetvdb.com" "themoviedb.com" "lencr.org" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" "dlza6g8e6iucb.cloudfront.net" 
+./dns_probe.sh plex.txt 2000 "i0.wp.com" "i1.wp.com" "www.opensubtitles.com" "secure.gravatar.com" "tmdb.org" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "thetvdb.com" "themoviedb.com" "lencr.org" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" "dlza6g8e6iucb.cloudfront.net" "m.media-amazon.com" "media-amazon.com" 
 
 git add wl/plex.txt
 git commit -a -m "update"
