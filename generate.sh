@@ -11,7 +11,7 @@ git commit -a -m "update"
 git push
 
 #Certificate authorities
-./dns_probe.sh cas.txt 200 "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.i.lencr.org" "r10.i.lencr.org" "lencr.org"
+./dns_probe.sh cas.txt 200 "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.i.lencr.org" "r10.i.lencr.org" "lencr.org" "crl.certum.pl" "x1.c.lencr.org" "ocsps.ssl.com" "ctldl.windowsupdate.com" "crl.verisign.com" "c.pki.goog" "pki.goog" "verisign.com" "ssl.com" "ocsp.pki.goog" "certum.pl"
 git add wl/cas.txt
 git commit -a -m "update"
 git push
