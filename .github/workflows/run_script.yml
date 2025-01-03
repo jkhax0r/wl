@@ -25,6 +25,9 @@ jobs:
       run: bash ./generate.sh
 
     - name: Print
-      run: cat data/yts.mx.txt
+      run: |
+        ls 
+        ls data
+        cat data/yts.mx.txt
 
 
