@@ -12,7 +12,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-      - uses: tecolicom/actions-use-apt-tools@v1
+      
+    - name: Apt get
+      uses: tecolicom/actions-use-apt-tools@v1
         with:
           tools: iprange
           cache: no
