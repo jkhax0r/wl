@@ -67,7 +67,10 @@ do
 	echo "#$domain" >> wl/$OUTPUT
 	cat data/$domain.txt >> wl/$OUTPUT
 	echo "" >> wl/$OUTPUT
+
 done
+
+
 echo "Wrote wl/$OUTPUT"
 
 

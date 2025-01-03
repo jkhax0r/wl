@@ -1,9 +1,9 @@
 name: Run Bash Script on Commit
 
-on:
-  push:
-    branches:
-      - main # Specify the branch you want to monitor
+#on:
+#  push:
+#    branches:
+#      - main # Specify the branch you want to monitor
 
 jobs:
   run_script:
@@ -24,10 +24,23 @@ jobs:
     - name: Run your script
       run: bash ./generate.sh
 
-    - name: Print
+    - name: Print TEST
       run: |
-        ls 
         ls data
-        cat data/yts.mx.txt
+        cat ./data/yts.mx.txt
+
+    - name: Commit Files
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add wl/\*
+        git add data/\*
+        git commit -m "Auto update bot"
+
+    - name: Push Files
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
 
 
