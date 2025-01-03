@@ -9,7 +9,7 @@ on:
           
 #    branches:
 #      - main # Specify the branch you want to monitor
-    schedule:
+  - schedule:
       - cron: "30 */6 * * *"
 
 
