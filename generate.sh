@@ -60,10 +60,14 @@ git add wl/plex.txt
 ./dns_probe.sh synology.txt 50 "global.download.synology.com" "global.synologydownload.com" "s3.us-west-002.backblazeb2.com" "update7.synology.com" "autoupdate7.synology.com" "payment.synology.com" "account.synology.com" "smtp.gmail.com" "download.synology.com" "www.synology.com" "pkgupdate7.synology.com" "pkgautoupdate.synologyupdate.com" "synoconf.synology.com" "synoconfkms.synology.com" "notification.synology.com" "sns.synology.com" "dataupdate.synology.com" "synology.com" "dataupdate7.synology.com" "dataautoupdate7.synology.com" "database.clamav.net" "myds.synology.com" "update.nai.com" "update.synology.com" "help.synology.com" "utyautoupdate.synology.com" "utyupdate.synology.com" "synosurveillance.synology.com" "us.c2.synology.com"
 git add wl/synology.txt
 
-
-for file in wl/*; do
-	echo $file
+# In case duplicates run iprange again to compact into smallest CIDR
+mkdir -f wl_min
+cd wl
+for file in *; do
+	iprange > ../wl_min/$file
 done
+cd ..
+git add wl_min/*
 
 
 git commit -a -m "update"

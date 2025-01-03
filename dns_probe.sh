@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "args = $#"
+#echo "args = $#"
 if [[ $# -lt 3 ]]; then
 	echo $0 [output file] [dns queries per domain] [domain1] [domain2] ...
 	exit -1
