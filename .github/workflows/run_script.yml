@@ -1,17 +1,17 @@
 name: Run Bash Script on Commit
 
 on:
-  push:
-    paths:
-      paths-ignore:
-        - 'wl/**'
-        - 'wl_min/**'
+  - push:
+      paths:
+        paths-ignore:
+          - 'wl/**'
+          - 'wl_min/**'
           
 #    branches:
 #      - main # Specify the branch you want to monitor
-  workflow_dispatch
-  schedule:
-    - cron: "30 */6 * * *"
+    workflow_dispatch
+    schedule:
+      - cron: "30 */6 * * *"
 
 
 jobs:
