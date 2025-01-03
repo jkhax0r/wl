@@ -20,12 +20,9 @@ OUTPUT="$1"
 
 #echo "Output is $OUTPUT"
 
-# Get random N lines from file
-echo "192.168.20.100" > data/resolvers.txt
+# Get always used dns servers and then random N lines from file
+cp always_used_resolvers.txt data/resolvers.txt
 shuf -n $DNS_COUNT resolvers/resolvers.txt >> data/resolvers.txt
-
-echo "The domains are..."
-cat data/resolvers.txt
 
 x=0
 for domain in $DOMAINS
