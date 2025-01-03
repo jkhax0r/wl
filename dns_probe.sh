@@ -66,7 +66,7 @@ do
 	awk '!a[$0]++' data/$domain.txt > data/$domain.txt.tmp
 
 	# Sort and remove BOGON networks, then compact into CIDR ranges using iprange utility 
-	cat data/$domain.txt.tmp | sort | uniq | rep -Ev "^${BOGON_REGEX}" | iprange > data/$domain.txt
+	cat data/$domain.txt.tmp | sort | uniq | grep -Ev "^${BOGON_REGEX}" | iprange > data/$domain.txt
 	rm -f data/$domain.txt.tmp	
 	
 	echo "#$domain" >> wl/$OUTPUT
