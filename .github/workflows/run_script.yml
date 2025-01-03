@@ -24,7 +24,7 @@ jobs:
       with:
         key: dns_lookup_data
         path: |
-          ~/data
+          data
 
     - name: Commit Files
       run: |
