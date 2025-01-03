@@ -61,6 +61,10 @@ git add wl/plex.txt
 git add wl/synology.txt
 
 
+for file in wl/*; do
+	echo $file
+done
+
 
 git commit -a -m "update"
 git push
