@@ -24,6 +24,8 @@ OUTPUT="$1"
 echo "192.168.20.100" > data/resolvers.txt
 shuf -n $DNS_COUNT resolvers/resolvers.txt >> data/resolvers.txt
 
+echo "The domains are..."
+cat data/resolvers.txt
 
 x=0
 for domain in $DOMAINS
