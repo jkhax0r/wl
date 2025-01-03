@@ -38,7 +38,9 @@ jobs:
         cache: yes
 
     - name: Run your script
-      run: bash ./generate.sh
+      run: |
+        ls data
+        bash ./generate.sh
 
 #    - name: Push Files
 #      uses: ad-m/github-push-action@master
