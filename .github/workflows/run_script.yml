@@ -2,10 +2,12 @@ name: Run Bash Script on Commit
 
 on:
   push:
-    paths:
-      paths-ignore:
-        - 'wl/**'
-        - 'wl_min/**'
+    branches:
+      - main
+        #    paths:
+        #      paths-ignore:
+        #        - 'wl/**'
+        #        - 'wl_min/**'
           
   schedule:
     - cron: "30 */6 * * *"
