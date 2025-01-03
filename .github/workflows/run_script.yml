@@ -20,4 +20,4 @@ jobs:
         cache: no
 
     - name: Run your script
-      run: bash ./your_script.sh
+      run: bash ./generate.sh
