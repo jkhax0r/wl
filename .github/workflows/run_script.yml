@@ -7,8 +7,6 @@ on:
         - 'wl/**'
         - 'wl_min/**'
           
-#    branches:
-#      - main # Specify the branch you want to monitor
   schedule:
     - cron: "30 */6 * * *"
 
