@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    concurrency: 
+      group: "single_workflow"  # This is the concurrency key - ensure this workflow only runs one at a time
 
     steps:
     - name: Checkout code
