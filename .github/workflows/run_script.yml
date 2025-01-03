@@ -25,7 +25,12 @@ jobs:
         key: dns_lookup_data
         path: |
           ~/data
-      
+
+    - name: Commit Files
+      run: |
+        #git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
     - name: Apt get
       uses: tecolicom/actions-use-apt-tools@v1
       with:
@@ -35,22 +40,10 @@ jobs:
     - name: Run your script
       run: bash ./generate.sh
 
-        #       - name: Test env
-        #      run: |
-        #        dig +short +time=2 @8.8.8.8 plex.tv | grep '^[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+$'
-
-    - name: Commit Files
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add wl/\*
-        git add data/\*
-        git commit -m "Auto update bot"
-
-    - name: Push Files
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+#    - name: Push Files
+#      uses: ad-m/github-push-action@master
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+#        branch: ${{ github.ref }}
 
 
