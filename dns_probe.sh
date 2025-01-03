@@ -40,7 +40,7 @@ do
 		dig +short +time=2 @$dns $domain | egrep "^${IPV4_REGEX}$" | egrep -v "^${BOGON_REGEX}" >> data/$domain.txt &
 
 		i=$((i+1))
-		if [[ $i == 1000 ]]
+		if [[ $i == 500 ]]
 		then
 			sleep 1.5
 			i=0
@@ -69,7 +69,7 @@ do
 	cat data/$domain.txt.tmp | sort | uniq | egrep -v "^${BOGON_REGEX}" | iprange > data/$domain.txt
 	rm -f data/$domain.txt.tmp	
 	
-	echo "#$domain" >> wl/$OUTPUT
+	echo "$domain" >> wl/$OUTPUT			# seems many routers will accept a FQDN and then do a DNS lookup
 	cat data/$domain.txt >> wl/$OUTPUT
 	echo "" >> wl/$OUTPUT
 
