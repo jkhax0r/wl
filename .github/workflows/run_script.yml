@@ -15,9 +15,9 @@ jobs:
       
     - name: Apt get
       uses: tecolicom/actions-use-apt-tools@v1
-        with:
-          tools: iprange
-          cache: no
+      with:
+        tools: iprange
+        cache: no
 
     - name: Run your script
       run: bash ./your_script.sh
