@@ -1,9 +1,11 @@
 name: Run Bash Script on Commit
 
-#on:
+on:
 #  push:
 #    branches:
 #      - main # Specify the branch you want to monitor
+  workflow_dispatch
+
 
 jobs:
   run_script:
