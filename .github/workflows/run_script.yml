@@ -18,6 +18,13 @@ jobs:
       uses: actions/checkout@v3
       with:
         submodules: true
+
+    - name: Cache dns results
+      uses: actions/cache@v3
+      with:
+        key: dns_lookup_data
+        path: |
+          ~/data
       
     - name: Apt get
       uses: tecolicom/actions-use-apt-tools@v1
@@ -28,14 +35,9 @@ jobs:
     - name: Run your script
       run: bash ./generate.sh
 
-    - name: Test env
-      run: |
-        dig +short +time=2 @8.8.8.8 plex.tv | grep '^[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+$'
-
-    - name: Print TEST
-      run: |
-        ls data
-        cat ./data/yts.mx.txt
+        #       - name: Test env
+        #      run: |
+        #        dig +short +time=2 @8.8.8.8 plex.tv | grep '^[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+$'
 
     - name: Commit Files
       run: |
