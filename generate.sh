@@ -61,10 +61,10 @@ git add wl/plex.txt
 git add wl/synology.txt
 
 # In case duplicates run iprange again to compact into smallest CIDR
-mkdir -f wl_min
+mkdir -p wl_min
 cd wl
 for file in *; do
-	iprange > ../wl_min/$file
+	iprange $file > ../wl_min/$file
 done
 cd ..
 git add wl_min/*
