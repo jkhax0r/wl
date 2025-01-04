@@ -36,6 +36,7 @@ jobs:
 
     - name: check cache
       run: |
+        mkdir -p data
         cat data/*
         echo data/*
 
