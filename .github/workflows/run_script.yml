@@ -20,7 +20,7 @@ jobs:
 
     env:
       # overwrite cache key
-      cache-key: your-cache-key
+      cache-key: dns_lookup_data_cache4
 
     permissions:
       contents: write
@@ -63,7 +63,6 @@ jobs:
     - name: Run your script
       run: |
         bash ./generate.sh
-        sleep 20
 
     - name: Delete Previous Cache
       if: ${{ steps.cache-restore.outputs.cache-hit }}
@@ -75,7 +74,7 @@ jobs:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Save Cache
-      uses: actions/cache/save@v3
+      uses: actions/cache/save@v4
       with:
         path: data
         key: ${{ env.cache-key }}
