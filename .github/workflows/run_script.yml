@@ -28,8 +28,8 @@ jobs:
       with:
         submodules: true
 
-    - name: Cache dns results
-      uses: actions/cache@v4
+    - name: Load dns results
+      uses: actions/cache/restore@v4
       with:
         key: dns_lookup_data
         path: data
@@ -53,5 +53,14 @@ jobs:
     - name: Run your script
       run: |
         bash ./generate.sh
+
+    - name: Save dns cache results
+      uses: actions/cache/save@v4
+      if: always()
+      uses: actions/cache/save@v4
+      with:
+        key: dns_lookup_data
+        path: data
+
 
 
