@@ -23,7 +23,7 @@ jobs:
       cache-key: your-cache-key
 
     permissions:
-      contents: [read, write]
+      contents: write
       actions: write
 
     concurrency: 
