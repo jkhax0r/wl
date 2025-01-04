@@ -16,9 +16,9 @@ on:
 
 jobs:
   run_script:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    runs-on: ubuntu-24.04
+      #    permissions:
+      #contents: write
     concurrency: 
       group: "single_workflow"  # This is the concurrency key - ensure this workflow only runs one at a time
 
@@ -28,7 +28,7 @@ jobs:
       with:
         submodules: true
 
-    - name: Load dns results
+    - name: Load dns cache
       uses: actions/cache/restore@v4
       with:
         key: dns_lookup_data_cache
@@ -56,7 +56,7 @@ jobs:
       run: |
         bash ./generate.sh
 
-    - name: Save dns cache results
+    - name: Save dns cache
       uses: actions/cache/save@v4
       if: always()
       with:
