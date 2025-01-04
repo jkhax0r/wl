@@ -51,8 +51,8 @@ do
 	echo ""
 done
 
+echo "Wait for done"
 wait
-#echo "Wait for done"
 #sleep 5
 
 x=0
