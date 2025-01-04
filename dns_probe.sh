@@ -51,10 +51,11 @@ do
 	echo ""
 done
 
-echo "Wait for done"
-sleep 5
-x=0
+wait
+#echo "Wait for done"
+#sleep 5
 
+x=0
 echo "" > wl/$OUTPUT
 
 for domain in $DOMAINS
