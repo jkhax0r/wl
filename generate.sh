@@ -57,7 +57,7 @@ git add wl/plex.txt
 #git push
 
 
-./dns_probe.sh synology.txt 1000 "global.download.synology.com" "global.synologydownload.com" "s3.us-west-002.backblazeb2.com" "update7.synology.com" "autoupdate7.synology.com" "payment.synology.com" "account.synology.com" "smtp.gmail.com" "download.synology.com" "www.synology.com" "pkgupdate7.synology.com" "pkgautoupdate.synologyupdate.com" "synoconf.synology.com" "synoconfkms.synology.com" "notification.synology.com" "sns.synology.com" "dataupdate.synology.com" "synology.com" "dataupdate7.synology.com" "dataautoupdate7.synology.com" "database.clamav.net" "myds.synology.com" "update.nai.com" "update.synology.com" "help.synology.com" "utyautoupdate.synology.com" "utyupdate.synology.com" "synosurveillance.synology.com" "us.c2.synology.com"
+./dns_probe.sh synology.txt 1000 "global.download.synology.com" "global.synologydownload.com" "s3.us-west-002.backblazeb2.com" "update7.synology.com" "autoupdate7.synology.com" "payment.synology.com" "account.synology.com" "smtp.gmail.com" "download.synology.com" "www.synology.com" "pkgupdate7.synology.com" "pkgautoupdate.synologyupdate.com" "synoconf.synology.com" "synoconfkms.synology.com" "notification.synology.com" "sns.synology.com" "dataupdate.synology.com" "synology.com" "dataupdate7.synology.com" "dataautoupdate7.synology.com" "database.clamav.net" "myds.synology.com" "update.nai.com" "update.synology.com" "help.synology.com" "utyautoupdate.synology.com" "utyupdate.synology.com" "synosurveillance.synology.com" "us.c2.synology.com" "checkip.synology.com"
 git add wl/synology.txt
 
 # In case duplicates run iprange again to compact into smallest CIDR
