@@ -57,7 +57,6 @@ jobs:
     - name: Save dns cache results
       uses: actions/cache/save@v4
       if: always()
-      uses: actions/cache/save@v4
       with:
         key: dns_lookup_data
         path: data
