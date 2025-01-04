@@ -25,12 +25,12 @@ cp always_used_resolvers.txt data/resolvers.txt
 shuf -n $DNS_COUNT resolvers/resolvers.txt >> data/resolvers.txt
 
 x=0
+i=0
 for domain in $DOMAINS
 do
 	x=$((x+1))
 	[[ $x -le 2 ]] && continue  #skip first 2 args
 
-	i=0	
 	echo "Processing $domain"
 	while read dns 
 	do	
@@ -40,7 +40,7 @@ do
 		dig +short +time=2 @$dns $domain | egrep "^${IPV4_REGEX}$" | egrep -v "^${BOGON_REGEX}" >> data/$domain.txt &
 
 		i=$((i+1))
-		if [[ $i == 500 ]]
+		if [[ $i >= 1000 ]]
 		then
 			wait
 			i=0
