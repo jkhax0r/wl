@@ -40,7 +40,7 @@ do
 		dig +short +time=2 @$dns $domain | egrep "^${IPV4_REGEX}$" | egrep -v "^${BOGON_REGEX}" >> data/$domain.txt &
 
 		i=$((i+1))
-		if [[ $i >= 1000 ]]
+		if [ $i -ge 1000 ]
 		then
 			wait
 			i=0
