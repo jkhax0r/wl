@@ -31,7 +31,7 @@ jobs:
     - name: Load dns results
       uses: actions/cache/restore@v4
       with:
-        key: dns_lookup_data
+        key: dns_lookup_data_cache
         path: data
 
     - name: check cache
@@ -58,7 +58,7 @@ jobs:
       uses: actions/cache/save@v4
       if: always()
       with:
-        key: dns_lookup_data
+        key: dns_lookup_data_cache
         path: data
 
 
