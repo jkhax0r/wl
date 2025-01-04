@@ -31,7 +31,7 @@ jobs:
     - name: Load dns cache
       uses: actions/cache/restore@v4
       with:
-        key: dns_lookup_data_cache3
+        key: dns_lookup_data_cache4
         path: data
         enableCrossOsArchive: true
 
@@ -56,12 +56,13 @@ jobs:
     - name: Run your script
       run: |
         bash ./generate.sh
+        sleep 20
 
     - name: Save dns cache
       uses: actions/cache/save@v4
       if: always()
       with:
-        key: dns_lookup_data_cache3
+        key: dns_lookup_data_cache4
         path: data
 
 
