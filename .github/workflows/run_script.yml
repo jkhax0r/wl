@@ -4,12 +4,11 @@ on:
   push:
     branches:
       - main
-    workflow_dispatch:
     paths-ignore:
       - 'wl/**'
       - 'wl_min/**'
 
-
+  workflow_dispatch:
           
   schedule:
     - cron: "30 */6 * * *"
