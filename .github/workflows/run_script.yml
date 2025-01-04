@@ -17,8 +17,15 @@ on:
 jobs:
   run_script:
     runs-on: ubuntu-24.04
-      #    permissions:
-      #contents: write
+
+    env:
+      # overwrite cache key
+      cache-key: your-cache-key
+
+    permissions:
+      contents: [read, write]
+      actions: write
+
     concurrency: 
       group: "single_workflow"  # This is the concurrency key - ensure this workflow only runs one at a time
 
@@ -29,11 +36,11 @@ jobs:
         submodules: true
 
     - name: Load dns cache
+      id: cache-restore
       uses: actions/cache/restore@v4
       with:
-        key: dns_lookup_data_cache4
+        key: ${{ env.cache-key }}
         path: data
-        enableCrossOsArchive: true
 
     - name: check cache
       run: |
@@ -58,12 +65,17 @@ jobs:
         bash ./generate.sh
         sleep 20
 
-    - name: Save dns cache
-      uses: actions/cache/save@v4
-      if: always()
-      with:
-        key: dns_lookup_data_cache4
-        path: data
-
-
+    - name: Delete Previous Cache
+      if: ${{ steps.cache-restore.outputs.cache-hit }}
+        continue-on-error: true
+        run: |
+          gh extension install actions/gh-actions-cache
+          gh actions-cache delete "${{ env.cache-key }}" --confirm
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save Cache
+        uses: actions/cache/save@v3
+        with:
+          path: ./cache
+          key: ${{ env.cache-key }}
 
