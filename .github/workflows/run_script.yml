@@ -20,7 +20,7 @@ jobs:
 
     env:
       # overwrite cache key
-      cache-key: dns_lookup_data_cache4
+      cache-key: dns_lookup_data_cache
 
     permissions:
       contents: write
