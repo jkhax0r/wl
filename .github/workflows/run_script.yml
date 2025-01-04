@@ -37,6 +37,7 @@ jobs:
     - name: check cache
       run: |
         mkdir -p data
+        touch data/dummy
         cat data/*
         echo data/*
 
