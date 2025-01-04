@@ -42,7 +42,7 @@ do
 		i=$((i+1))
 		if [[ $i == 500 ]]
 		then
-			sleep 1.5
+			wait
 			i=0
 			echo -n "."
 		fi
@@ -78,5 +78,8 @@ done
 
 
 echo "Wrote wl/$OUTPUT"
+wait
+
+
 
 
