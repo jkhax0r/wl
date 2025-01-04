@@ -55,6 +55,7 @@ jobs:
     - name: Run your script
       run: |
         bash ./generate.sh
+        sleep 20
 
     - name: Save dns cache
       uses: actions/cache/save@v4
