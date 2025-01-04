@@ -30,11 +30,15 @@ jobs:
         submodules: true
 
     - name: Cache dns results
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: dns_lookup_data
-        path: |
-          data
+        path: data
+
+    - name: check cache
+      run: |
+        cat data/*
+        echo data/*
 
     - name: Commit Files
       run: |
