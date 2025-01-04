@@ -42,12 +42,12 @@ jobs:
         path: data
         key: ${{ env.cache-key }}
 
-    - name: check cache
-      run: |
-        mkdir -p data
-        touch data/dummy
-        cat data/*
-        echo data/*
+          #    - name: check cache
+          #      run: |
+          #        mkdir -p data
+          #        touch data/dummy
+          #        cat data/*
+          #        echo data/*
 
     - name: Commit Files
       run: |
@@ -60,7 +60,7 @@ jobs:
         tools: iprange
         cache: yes
 
-    - name: Run your script
+    - name: Run DNS queries
       run: |
         bash ./generate.sh
 
