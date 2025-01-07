@@ -535,6 +535,7 @@ global.synologydownload.com
 188.114.99.232/31
 188.114.99.235
 188.114.99.236
+198.18.1.102
 
 #s3.us-west-002.backblazeb2.com
 s3.us-west-002.backblazeb2.com
@@ -543,6 +544,7 @@ s3.us-west-002.backblazeb2.com
 104.116.243.125
 149.137.142.254
 162.159.50.27
+198.18.1.137
 
 #update7.synology.com
 update7.synology.com
@@ -1026,6 +1028,7 @@ update7.synology.com
 143.204.55.7
 143.204.55.54
 143.204.55.122
+198.18.1.169
 204.246.191.37
 204.246.191.90
 204.246.191.98
@@ -2624,6 +2627,7 @@ smtp.gmail.com
 
 #download.synology.com
 download.synology.com
+198.18.1.122
 203.74.127.91
 
 #www.synology.com
@@ -3062,6 +3066,7 @@ www.synology.com
 108.159.102.91
 108.159.102.95
 140.82.56.237
+198.18.1.163
 
 #pkgupdate7.synology.com
 pkgupdate7.synology.com
@@ -4105,6 +4110,9 @@ dataupdate.synology.com
 3.166.152.72
 3.166.152.79
 3.166.152.91
+3.166.216.24
+3.166.216.30/31
+3.166.216.97
 3.168.147.22
 3.168.147.54
 3.168.147.63
@@ -4597,6 +4605,9 @@ dataupdate7.synology.com
 3.166.152.72
 3.166.152.79
 3.166.152.91
+3.166.216.24
+3.166.216.30/31
+3.166.216.97
 3.168.147.22
 3.168.147.54
 3.168.147.63
@@ -5457,6 +5468,7 @@ database.clamav.net
 103.21.25.248
 104.16.218.84
 104.16.219.84
+198.18.1.235
 206.253.91.92
 
 #myds.synology.com
@@ -5466,6 +5478,7 @@ myds.synology.com
 15.156.231.252
 89.208.107.49
 99.79.0.97
+198.18.1.33
 
 #update.nai.com
 update.nai.com
@@ -5668,6 +5681,7 @@ update.nai.com
 184.85.230.183
 184.86.101.149
 184.87.130.184
+198.18.1.133
 
 #update.synology.com
 update.synology.com
@@ -6277,6 +6291,7 @@ help.synology.com
 108.159.102.30
 108.159.102.36
 108.159.102.117
+198.18.1.130
 204.246.191.15
 204.246.191.17
 204.246.191.52
@@ -6731,6 +6746,7 @@ utyautoupdate.synology.com
 143.204.55.54
 143.204.55.116
 143.204.55.129
+198.18.1.45
 
 #utyupdate.synology.com
 utyupdate.synology.com
@@ -7217,9 +7233,11 @@ utyupdate.synology.com
 #synosurveillance.synology.com
 synosurveillance.synology.com
 123.51.153.87
+198.18.1.106
 
 #us.c2.synology.com
 us.c2.synology.com
+198.18.1.130
 209.249.51.128
 
 #checkip.synology.com
