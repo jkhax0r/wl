@@ -7,6 +7,7 @@ region1.v2.argotunnel.com
 23.210.249.65
 45.54.28.15
 103.21.25.248
+104.124.54.190
 198.18.1.79
 198.41.192.7
 198.41.192.27
@@ -44,6 +45,7 @@ region2.v2.argotunnel.com
 #_v2-origintunneld._tcp.argotunnel.com
 _v2-origintunneld._tcp.argotunnel.com
 2.16.182.148
+23.55.56.72
 23.202.88.30
 92.122.154.19
 198.18.1.116
