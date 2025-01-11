@@ -5029,6 +5029,7 @@ dataupdate.synology.com
 
 #synology.com
 synology.com
+3.96.16.2
 3.96.34.167
 3.96.81.59
 3.96.235.86
