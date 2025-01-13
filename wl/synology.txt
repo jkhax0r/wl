@@ -6272,6 +6272,7 @@ dataautoupdate7.synology.com
 143.204.237.63
 143.204.237.93
 198.18.1.56
+198.18.1.211
 
 #database.clamav.net
 database.clamav.net
@@ -6296,6 +6297,7 @@ myds.synology.com
 89.208.107.49
 99.79.0.97
 198.18.1.33
+198.18.1.224
 
 #update.nai.com
 update.nai.com
@@ -6636,6 +6638,7 @@ update.synology.com
 143.204.24.235
 143.204.45.75
 143.204.69.192
+198.18.1.103
 204.246.169.159
 
 #help.synology.com
@@ -7198,6 +7201,7 @@ help.synology.com
 108.159.102.36
 108.159.102.117
 198.18.1.130
+198.18.1.149
 204.246.191.15
 204.246.191.17
 204.246.191.52
@@ -7707,6 +7711,7 @@ utyautoupdate.synology.com
 143.204.55.54
 143.204.55.116
 143.204.55.129
+198.18.1.19
 198.18.1.45
 
 #utyupdate.synology.com
@@ -7822,6 +7827,10 @@ utyupdate.synology.com
 13.33.183.22
 13.33.183.109
 13.33.183.123
+13.35.121.3
+13.35.121.15
+13.35.121.94
+13.35.121.106
 13.35.186.2/31
 13.35.186.74
 13.35.186.84
@@ -8281,6 +8290,7 @@ utyupdate.synology.com
 #synosurveillance.synology.com
 synosurveillance.synology.com
 123.51.153.87
+198.18.1.99
 198.18.1.106
 
 #us.c2.synology.com
