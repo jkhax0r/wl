@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# All cloudflare IPs
+wget https://www.cloudflare.com/ips-v4/ -O wl/cloudflare-ips.txt
 
 # All cloudfront ips
 wget https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips
@@ -24,7 +26,6 @@ echo "142.250.0.0/15" >> wl/google.txt
 
 #Ips allowed outbound 443/89
 ./dns_probe.sh yts.mx.txt 1000 "yts.mx" "updates.safing.io" "safing.io"
-
 
 # For cloudflared service
 ./dns_probe.sh cloudflared.txt 1000 "region1.v2.argotunnel.com" "region2.v2.argotunnel.com" "_v2-origintunneld._tcp.argotunnel.com" "cftunnel.com" "h2.cftunnel.com" "quic.cftunnel.com"
