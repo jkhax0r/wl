@@ -3243,6 +3243,7 @@ storeedgefd.dsx.mp.microsoft.com
 #store-images.microsoft.com
 store-images.microsoft.com
 2.16.97.107
+2.16.177.187
 2.16.193.122
 2.16.209.246
 2.16.220.200
