@@ -634,6 +634,7 @@ global.download.synology.com
 198.18.1.58
 198.18.1.143
 198.18.1.216
+208.91.112.55
 
 #global.synologydownload.com
 global.synologydownload.com
@@ -1286,6 +1287,7 @@ update7.synology.com
 204.246.191.90
 204.246.191.98
 204.246.191.121
+208.91.112.55
 216.137.52.8
 216.137.52.42
 216.137.52.100
@@ -1839,6 +1841,7 @@ autoupdate7.synology.com
 204.246.191.41
 204.246.191.76
 204.246.191.113
+208.91.112.55
 216.137.39.46
 216.137.39.60
 216.137.39.102
@@ -2452,6 +2455,7 @@ payment.synology.com
 143.204.55.27
 143.204.55.31
 143.204.55.41
+208.91.112.55
 
 #account.synology.com
 account.synology.com
@@ -3043,6 +3047,7 @@ account.synology.com
 204.246.191.74
 204.246.191.78
 204.246.191.110
+208.91.112.55
 
 #smtp.gmail.com
 smtp.gmail.com
@@ -3256,6 +3261,7 @@ smtp.gmail.com
 192.178.130.108/31
 192.204.27.239
 198.18.1.215
+208.91.112.55
 209.85.144.108/31
 209.85.145.108/31
 209.85.200.108/31
@@ -3823,6 +3829,7 @@ www.synology.com
 198.18.1.163
 198.18.1.221
 198.18.1.228
+208.91.112.55
 
 #pkgupdate7.synology.com
 pkgupdate7.synology.com
@@ -4476,6 +4483,7 @@ pkgupdate7.synology.com
 204.246.191.25
 204.246.191.112
 204.246.191.119
+208.91.112.55
 
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
@@ -4508,6 +4516,7 @@ pkgautoupdate.synologyupdate.com
 synoconf.synology.com
 159.100.4.208
 198.18.1.169
+208.91.112.55
 
 #synoconfkms.synology.com
 synoconfkms.synology.com
@@ -5139,6 +5148,7 @@ synoconfkms.synology.com
 204.246.191.75
 204.246.191.87
 204.246.191.120
+208.91.112.55
 
 #notification.synology.com
 notification.synology.com
@@ -5777,6 +5787,7 @@ dataupdate.synology.com
 143.204.55.104
 198.18.1.31
 198.18.1.157
+208.91.112.55
 216.137.39.15
 216.137.39.51
 216.137.39.84
@@ -6464,6 +6475,7 @@ dataupdate7.synology.com
 198.18.1.74
 198.18.1.155
 198.18.1.160
+208.91.112.55
 216.137.39.15
 216.137.39.51
 216.137.39.84
@@ -7103,6 +7115,7 @@ myds.synology.com
 198.18.1.177
 198.18.1.224
 198.18.1.237
+208.91.112.55
 
 #update.nai.com
 update.nai.com
@@ -8123,6 +8136,7 @@ help.synology.com
 204.246.191.17
 204.246.191.52
 204.246.191.91
+208.91.112.55
 216.137.52.32
 216.137.52.66
 216.137.52.96
@@ -8698,6 +8712,7 @@ utyautoupdate.synology.com
 198.18.1.45
 198.18.1.178
 198.18.1.220
+208.91.112.55
 
 #utyupdate.synology.com
 utyupdate.synology.com
@@ -9368,6 +9383,7 @@ utyupdate.synology.com
 143.204.55.85
 198.18.1.18
 198.18.1.100/31
+208.91.112.55
 
 #synosurveillance.synology.com
 synosurveillance.synology.com
@@ -9375,6 +9391,7 @@ synosurveillance.synology.com
 198.18.1.15
 198.18.1.99
 198.18.1.106
+208.91.112.55
 
 #us.c2.synology.com
 us.c2.synology.com
@@ -9388,6 +9405,7 @@ checkip.synology.com
 84.200.39.196
 103.21.25.248
 198.18.1.109
+208.91.112.55
 
 #checkip.dyndns.org
 checkip.dyndns.org
@@ -9414,4 +9432,5 @@ checkip.dyndns.org
 192.204.27.239
 193.122.6.168
 193.122.130.0
+208.91.112.55
 
