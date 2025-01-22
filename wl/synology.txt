@@ -6094,6 +6094,7 @@ synology.com
 198.18.1.16
 198.18.1.232
 198.18.1.250
+208.91.112.55
 
 #dataupdate7.synology.com
 dataupdate7.synology.com
@@ -7624,6 +7625,7 @@ update.nai.com
 198.18.1.133
 198.18.1.147
 198.18.1.252
+208.91.112.55
 
 #update.synology.com
 update.synology.com
@@ -7786,6 +7788,7 @@ update.synology.com
 198.18.1.103
 198.18.1.162
 204.246.169.159
+208.91.112.55
 
 #help.synology.com
 help.synology.com
