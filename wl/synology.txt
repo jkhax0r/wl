@@ -499,6 +499,10 @@ global.download.synology.com
 54.192.95.69
 54.192.95.121
 54.192.95.128
+54.192.97.22
+54.192.97.76
+54.192.97.95
+54.192.97.102
 54.230.71.5
 54.230.71.30
 54.230.71.41
@@ -691,6 +695,7 @@ global.synologydownload.com
 198.18.1.176
 198.18.1.183
 198.18.1.208
+208.91.112.55
 
 #s3.us-west-002.backblazeb2.com
 s3.us-west-002.backblazeb2.com
@@ -708,6 +713,7 @@ s3.us-west-002.backblazeb2.com
 198.18.1.137
 198.18.1.141
 198.18.1.145
+208.91.112.55
 
 #update7.synology.com
 update7.synology.com
@@ -4655,6 +4661,7 @@ pkgautoupdate.synologyupdate.com
 188.114.99.236
 192.204.27.239
 198.18.1.232
+208.91.112.55
 
 #synoconf.synology.com
 synoconf.synology.com
@@ -7299,6 +7306,7 @@ dataautoupdate7.synology.com
 198.18.1.179
 198.18.1.211
 198.18.1.215
+208.91.112.55
 
 #database.clamav.net
 database.clamav.net
@@ -7321,6 +7329,7 @@ database.clamav.net
 206.253.91.88
 206.253.91.90/31
 206.253.91.92
+208.91.112.55
 
 #myds.synology.com
 myds.synology.com
@@ -7470,6 +7479,7 @@ update.nai.com
 23.212.9.218
 23.212.106.25
 23.213.48.158
+23.213.69.145
 23.213.212.159
 23.213.217.181
 23.213.248.107
@@ -9676,6 +9686,7 @@ synosurveillance.synology.com
 us.c2.synology.com
 198.18.1.130
 198.18.1.200
+208.91.112.55
 209.249.51.128
 
 #checkip.synology.com
