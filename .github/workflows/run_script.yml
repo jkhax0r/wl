@@ -57,7 +57,7 @@ jobs:
     - name: Apt get
       uses: tecolicom/actions-use-apt-tools@v1
       with:
-        tools: iprange
+        tools: iprange curl jq
         cache: yes
 
     - name: Run DNS queries
