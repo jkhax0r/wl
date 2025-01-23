@@ -8,6 +8,8 @@ wget https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips
 cat list-cloudfront-ips | sed -n 1'p' | tr ',' '\n' | while read word; do     grep -oh "[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*/[0-9]*"; done | sort | uniq > wl/cloudfront-ips.txt
 rm list-cloudfront-ips*
 
+| jq '.git' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)"
+
 #Certificate authorities
 ./dns_probe.sh cas.txt 1000 "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.i.lencr.org" "r10.i.lencr.org" "lencr.org" "crl.certum.pl" "x1.c.lencr.org" "ocsps.ssl.com" "ctldl.windowsupdate.com" "crl.verisign.com" "c.pki.goog" "pki.goog" "verisign.com" "ssl.com" "ocsp.pki.goog" "certum.pl" "crt.buypass.no" "buypass.no" "ocsp-certum.com" "subca.ocsp-certum.com" "crl.entrust.net" "entrust.net" "usertrust.com" "ocsp.usertrust.com" "crl3.digicert.com" "ocsp.digicert.com" "crl4.digicert.com" "comodoca.com"
 
@@ -19,6 +21,10 @@ rm list-cloudfront-ips*
 
 #smtp.gmail.com
 ./dns_probe.sh smtp.gmail.com.txt 1000 "smtp.gmail.com"
+
+# Github and gitlab git access
+./dns_probe.sh git.txt 1000 "gitlab.com"
+curl -s https://api.github.com/meta | jq '.git' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)" >> wl/git.txt
 
 # For sending gmail notifications
 ./dns_probe.sh google.txt 1000 "googleapis.com"
