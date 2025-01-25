@@ -8,6 +8,7 @@ gitlab.com
 198.18.1.11
 198.18.1.81
 198.18.1.152
+198.18.1.184
 208.91.112.55
 
 #github git list (https://api.github.com/meta)
