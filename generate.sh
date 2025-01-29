@@ -6,6 +6,9 @@ wget https://www.cloudflare.com/ips-v4/ -O wl/cloudflare-ips.txt
 # All cloudfront ips
 curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | sed -n 1'p' | tr ',' '\n' | while read word; do     grep -oh "[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*/[0-9]*"; done | sort | uniq > wl/cloudfront-ips.txt
 
+# Akamai CDN 
+curl -s https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_CIDRs.txt | iprange - --except exclude-ips.txt > wl/akamai_cdn.txt
+
 # Github and gitlab git access
 ./dns_probe.sh git.txt 1000 "gitlab.com"
 echo ""
