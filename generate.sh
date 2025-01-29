@@ -12,6 +12,9 @@ echo ""
 echo "#github git list (https://api.github.com/meta)" >> wl/git.txt
 curl -s https://api.github.com/meta | jq '.git' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)" >> wl/git.txt
 
+echo "#github web servers list (https://api.github.com/meta)" >> wl/git.txt
+curl -s https://api.github.com/meta | jq '.web' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)" >> wl/github_web.txt
+
 #Certificate authorities
 ./dns_probe.sh cas.txt 1000 "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.i.lencr.org" "r10.i.lencr.org" "lencr.org" "crl.certum.pl" "x1.c.lencr.org" "ocsps.ssl.com" "ctldl.windowsupdate.com" "crl.verisign.com" "c.pki.goog" "pki.goog" "verisign.com" "ssl.com" "ocsp.pki.goog" "certum.pl" "crt.buypass.no" "buypass.no" "ocsp-certum.com" "subca.ocsp-certum.com" "crl.entrust.net" "entrust.net" "usertrust.com" "ocsp.usertrust.com" "crl3.digicert.com" "ocsp.digicert.com" "crl4.digicert.com" "comodoca.com"
 
