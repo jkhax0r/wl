@@ -37,7 +37,7 @@ do
 		IPV4_REGEX='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
 		BOGON_REGEX='(0\.|127\.|10\.|192\.168\.|172\.16\.|172\.17\.|172\.18\.|172\.19\.|172\.2[0-9]\.|172\.3[0-1]\.|100\.64\.|169\.254\.|192\.0\.0\.|192\.0\.2\.|22[4-9]\.|23[0-9]\.|24[0-9]\.|25[0-5]\.)'
 		
-		dig +short +time=2 @$dns $domain | egrep "^${IPV4_REGEX}$" | egrep -v "^${BOGON_REGEX}" >> data/$domain.txt &
+		dig +short +time=2 @$dns $domain | egrep "^${IPV4_REGEX}$" | egrep -v "^${BOGON_REGEX}" | iprange - --except exclude-ips.txt >> data/$domain.txt &
 
 		i=$((i+1))
 		if [ $i -ge 5000 ]
@@ -67,7 +67,7 @@ do
 	awk '!a[$0]++' data/$domain.txt > data/$domain.txt.tmp
 
 	# Sort and remove BOGON networks, then compact into CIDR ranges using iprange utility 
-	cat data/$domain.txt.tmp | sort | uniq | egrep -v "^${BOGON_REGEX}" | iprange > data/$domain.txt
+	cat data/$domain.txt.tmp | sort | uniq | egrep -v "^${BOGON_REGEX}" | iprange - --except exclude-ips.txt | iprange > data/$domain.txt
 	rm -f data/$domain.txt.tmp	
 	
 	echo "#$domain" >> wl/$OUTPUT
