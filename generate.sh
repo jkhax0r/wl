@@ -12,7 +12,7 @@ echo ""
 echo "#github git list (https://api.github.com/meta)" >> wl/git.txt
 curl -s https://api.github.com/meta | jq '.git' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)" >> wl/git.txt
 
-echo "#github web servers list (https://api.github.com/meta)" >> wl/git.txt
+echo "#github web servers list (https://api.github.com/meta)" >> wl/github_web.txt
 curl -s https://api.github.com/meta | jq '.web' | egrep -o "([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}(\/[0-9]{1,2})?)" >> wl/github_web.txt
 
 #Certificate authorities
