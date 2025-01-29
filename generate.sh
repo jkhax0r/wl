@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 # All cloudflare IPs
 wget https://www.cloudflare.com/ips-v4/ -O wl/cloudflare-ips.txt
 
