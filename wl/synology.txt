@@ -8212,6 +8212,7 @@ database.clamav.net
 
 #myds.synology.com
 myds.synology.com
+3.98.63.143
 3.99.87.94
 3.99.104.26
 3.99.113.63
