@@ -57,7 +57,7 @@ echo "142.250.0.0/15" >> wl/google.txt
 mkdir -p wl_min
 cd wl
 for file in *; do
-	iprange $file --except exclude-ips.txt > ../wl_min/$file
+	iprange $file --except ../exclude-ips.txt > ../wl_min/$file
 done
 cd ..
 git add wl_min/*
