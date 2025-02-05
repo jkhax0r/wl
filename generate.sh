@@ -25,7 +25,7 @@ curl -s https://api.github.com/meta | jq '.web' | egrep -o "([0-9]{1,3}\.[0-9]{1
 ./dns_probe.sh docker.txt 1000 "index.docker.io" "registry-1.docker.io" "docker.io"
 
 # linuxserver.io
-./dns_probe.sh linuxserver.io.txt 1000 "lscr.io"
+./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com"
 
 #Windows store - general things windows store hits
 ./dns_probe.sh windowsstore.txt 1000 "store-images.s-microsoft.com" "images-eds-ssl.xboxlive.com" "xboxlive.com" "da.xboxservices.com" "storeedgefd.dsx.mp.microsoft.com" "store-images.microsoft.com" "displaycatalog.mp.microsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
