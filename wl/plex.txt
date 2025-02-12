@@ -126,6 +126,7 @@ plex.tv
 
 #metadata-static.plex.tv
 metadata-static.plex.tv
+83.149.52.164
 104.18.36.51
 172.64.151.205
 185.205.210.23
