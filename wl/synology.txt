@@ -6342,6 +6342,7 @@ notification.synology.com
 #sns.synology.com
 sns.synology.com
 89.208.107.49
+104.109.250.254
 138.197.222.19
 167.99.168.209
 185.205.210.23
