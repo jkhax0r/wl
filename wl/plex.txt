@@ -10,6 +10,7 @@ i1.wp.com
 #www.opensubtitles.com
 www.opensubtitles.com
 104.21.75.83
+146.112.61.106
 156.154.112.141
 156.154.113.141
 172.64.80.1
@@ -80,6 +81,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 #plexapp.com
 plexapp.com
 3.224.238.173
+23.62.61.36
 52.7.27.133
 54.73.224.159
 54.77.234.91
@@ -195,5 +197,6 @@ pubsub.plex.bz
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
+23.62.61.36
 52.237.130.0
 
