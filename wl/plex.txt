@@ -3,6 +3,7 @@
 i0.wp.com
 83.149.52.164
 192.0.77.2
+208.91.112.55
 
 #i1.wp.com
 i1.wp.com
@@ -17,11 +18,13 @@ www.opensubtitles.com
 156.154.113.141
 172.64.80.1
 172.67.217.148
+208.91.112.55
 
 #secure.gravatar.com
 secure.gravatar.com
 83.149.52.164
 192.0.73.2
+208.91.112.55
 
 #images.plex.tv
 images.plex.tv
@@ -43,6 +46,7 @@ plex.tv
 52.210.40.195
 52.213.221.71
 83.149.52.164
+208.91.112.55
 
 #metadata-static.plex.tv
 metadata-static.plex.tv
@@ -75,6 +79,7 @@ metadata.provider.plex.tv
 188.114.99.231
 188.114.99.232
 188.114.99.234/31
+208.91.112.55
 
 #plex.bz
 plex.bz
@@ -97,13 +102,16 @@ plexapp.com
 104.18.35.86
 108.128.95.79
 172.64.152.170
+208.91.112.55
 
 #plex.services.com
 plex.services.com
 86.35.3.192/31
+208.91.112.55
 
 #themoviedb.com
 themoviedb.com
+208.91.112.55
 
 #plex.tv
 plex.tv
@@ -112,6 +120,7 @@ plex.tv
 52.210.40.195
 52.213.221.71
 83.149.52.164
+208.91.112.55
 
 #www.plex.tv
 www.plex.tv
@@ -128,6 +137,7 @@ www.plex.tv
 188.114.99.231
 188.114.99.232
 188.114.99.234/31
+208.91.112.55
 
 #pubsub.plex.bz
 pubsub.plex.bz
@@ -211,4 +221,5 @@ pubsub.plex.bz
 video.internetvideoarchive.net
 23.62.61.36
 52.237.130.0
+208.91.112.55
 
