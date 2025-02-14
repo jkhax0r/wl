@@ -9,6 +9,8 @@ i0.wp.com
 #i1.wp.com
 i1.wp.com
 192.0.77.2
+192.73.243.24
+192.73.243.36
 
 #www.opensubtitles.com
 www.opensubtitles.com
