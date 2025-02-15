@@ -1,6 +1,8 @@
 
 #gitlab.com
 gitlab.com
+23.55.56.72
+83.149.52.164
 172.65.251.78
 
 #github git list (https://api.github.com/meta)
