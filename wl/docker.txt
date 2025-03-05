@@ -4,7 +4,7 @@ index.docker.io
 3.94.224.37
 44.208.254.194
 98.85.153.80
-185.205.210.23
+104.109.250.254
 
 #registry-1.docker.io
 registry-1.docker.io
@@ -14,7 +14,9 @@ registry-1.docker.io
 
 #docker.io
 docker.io
+2.16.182.148
 54.156.14.194
 54.208.73.48
 100.29.167.200
+140.82.56.237
 
