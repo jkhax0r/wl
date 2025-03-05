@@ -24,15 +24,12 @@ region2.v2.argotunnel.com
 198.41.200.113
 198.41.200.193
 198.41.200.233
-208.91.112.55
 
 #_v2-origintunneld._tcp.argotunnel.com
 _v2-origintunneld._tcp.argotunnel.com
-208.91.112.55
 
 #cftunnel.com
 cftunnel.com
-208.91.112.55
 
 #h2.cftunnel.com
 h2.cftunnel.com
