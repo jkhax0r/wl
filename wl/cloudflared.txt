@@ -1,6 +1,7 @@
 
 #region1.v2.argotunnel.com
 region1.v2.argotunnel.com
+23.50.57.5
 198.41.192.7
 198.41.192.27
 198.41.192.37
@@ -14,6 +15,7 @@ region1.v2.argotunnel.com
 
 #region2.v2.argotunnel.com
 region2.v2.argotunnel.com
+23.50.57.5
 198.41.200.13
 198.41.200.23
 198.41.200.33
@@ -36,4 +38,5 @@ h2.cftunnel.com
 
 #quic.cftunnel.com
 quic.cftunnel.com
+104.109.250.254
 
