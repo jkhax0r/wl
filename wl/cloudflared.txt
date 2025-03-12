@@ -1,6 +1,7 @@
 
 #region1.v2.argotunnel.com
 region1.v2.argotunnel.com
+83.149.50.66
 198.41.192.7
 198.41.192.27
 198.41.192.37
@@ -14,6 +15,7 @@ region1.v2.argotunnel.com
 
 #region2.v2.argotunnel.com
 region2.v2.argotunnel.com
+83.149.50.66
 198.41.200.13
 198.41.200.23
 198.41.200.33
@@ -27,6 +29,7 @@ region2.v2.argotunnel.com
 
 #_v2-origintunneld._tcp.argotunnel.com
 _v2-origintunneld._tcp.argotunnel.com
+83.149.50.66
 
 #cftunnel.com
 cftunnel.com
