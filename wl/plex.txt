@@ -123,6 +123,7 @@ plexapp.com
 #plex.services.com
 plex.services.com
 83.149.50.66
+143.244.220.150
 
 #themoviedb.com
 themoviedb.com
