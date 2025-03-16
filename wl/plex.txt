@@ -88,6 +88,7 @@ metadata-static.plex.tv
 188.114.99.231
 188.114.99.232
 188.114.99.234/31
+208.91.112.55
 
 #metadata.provider.plex.tv
 metadata.provider.plex.tv
