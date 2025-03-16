@@ -111,6 +111,7 @@ metadata.provider.plex.tv
 #plex.bz
 plex.bz
 83.149.50.66
+84.53.133.251
 140.82.56.237
 208.91.112.55
 
@@ -139,6 +140,7 @@ plexapp.com
 
 #plex.services.com
 plex.services.com
+23.32.182.110
 83.149.50.66
 143.244.220.150
 208.91.112.55
@@ -182,6 +184,7 @@ www.plex.tv
 
 #pubsub.plex.bz
 pubsub.plex.bz
+23.59.253.117
 23.239.17.115
 45.33.72.65
 45.33.73.250
