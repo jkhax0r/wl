@@ -76,6 +76,7 @@ images.plex.tv
 
 #plex.tv
 plex.tv
+34.250.206.99
 52.17.57.0
 52.17.244.138
 52.20.84.62
@@ -124,6 +125,7 @@ metadata.provider.plex.tv
 188.114.99.231
 188.114.99.232
 188.114.99.234/31
+208.91.112.55
 
 #plex.bz
 plex.bz
@@ -187,6 +189,7 @@ themoviedb.com
 
 #plex.tv
 plex.tv
+34.250.206.99
 52.17.57.0
 52.17.244.138
 52.20.84.62
@@ -301,6 +304,7 @@ pubsub.plex.bz
 192.46.236.7
 192.81.131.80
 194.233.164.25
+208.91.112.55
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
