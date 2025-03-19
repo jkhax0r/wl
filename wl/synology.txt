@@ -505,6 +505,7 @@ global.download.synology.com
 143.204.237.91
 143.204.237.115
 185.205.210.23
+208.91.112.55
 
 #global.synologydownload.com
 global.synologydownload.com
@@ -1542,6 +1543,7 @@ autoupdate7.synology.com
 204.246.191.41
 204.246.191.76
 204.246.191.113
+208.91.112.55
 216.137.39.46
 216.137.39.60
 216.137.39.102
@@ -4477,6 +4479,7 @@ notification.synology.com
 167.99.168.209
 185.205.210.23
 206.189.219.255
+208.91.112.55
 
 #sns.synology.com
 sns.synology.com
@@ -4485,6 +4488,7 @@ sns.synology.com
 167.99.168.209
 185.205.210.23
 206.189.219.255
+208.91.112.55
 
 #dataupdate.synology.com
 dataupdate.synology.com
@@ -4990,6 +4994,7 @@ dataupdate.synology.com
 143.204.55.72
 143.204.55.104
 185.205.210.23
+208.91.112.55
 
 #synology.com
 synology.com
@@ -6068,6 +6073,7 @@ database.clamav.net
 104.17.196.15
 104.18.203.90
 185.205.210.23
+208.91.112.55
 
 #myds.synology.com
 myds.synology.com
@@ -6077,6 +6083,7 @@ myds.synology.com
 35.183.151.128
 83.149.50.66
 185.205.210.23
+208.91.112.55
 
 #update.nai.com
 update.nai.com
@@ -6394,6 +6401,7 @@ update.synology.com
 65.8.193.64
 65.9.26.74
 65.9.93.221
+65.9.186.196
 83.149.50.66
 108.138.55.93
 108.139.104.211
@@ -8037,4 +8045,5 @@ checkip.dyndns.org
 185.205.210.23
 193.122.6.168
 193.122.130.0
+208.91.112.55
 
