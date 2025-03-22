@@ -1171,10 +1171,12 @@ update7.synology.com
 143.204.237.55
 143.204.237.60
 143.204.237.111
+185.205.210.23
 204.246.191.37
 204.246.191.90
 204.246.191.98
 204.246.191.121
+208.91.112.55
 
 #autoupdate7.synology.com
 autoupdate7.synology.com
@@ -2944,6 +2946,7 @@ smtp.gmail.com
 23.48.172.124
 23.50.57.5
 23.55.51.174
+23.55.56.72
 23.56.173.167
 23.210.249.65
 23.213.186.158
@@ -4387,6 +4390,7 @@ synoconf.synology.com
 83.149.50.66
 159.100.4.208
 185.205.210.23
+208.91.112.55
 
 #synoconfkms.synology.com
 synoconfkms.synology.com
@@ -5594,6 +5598,7 @@ synology.com
 83.149.50.66
 140.82.56.237
 185.205.210.23
+208.91.112.55
 
 #dataupdate7.synology.com
 dataupdate7.synology.com
@@ -5629,6 +5634,10 @@ dataupdate7.synology.com
 3.162.3.29
 3.162.3.86
 3.162.3.89
+3.162.58.9
+3.162.58.59
+3.162.58.73
+3.162.58.110
 3.163.10.24
 3.163.10.75
 3.163.10.96
@@ -6169,6 +6178,7 @@ dataupdate7.synology.com
 143.204.55.72
 143.204.55.104
 185.205.210.23
+208.91.112.55
 
 #dataautoupdate7.synology.com
 dataautoupdate7.synology.com
