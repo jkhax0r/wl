@@ -212,6 +212,7 @@ themoviedb.com
 23.50.57.5
 23.55.56.72
 23.59.253.117
+23.213.186.158
 83.149.50.66
 84.53.133.251
 140.82.56.237
@@ -348,6 +349,7 @@ pubsub.plex.bz
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
+2.16.182.148
 2.18.188.212
 23.32.182.110
 23.50.57.5
