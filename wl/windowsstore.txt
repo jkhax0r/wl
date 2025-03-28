@@ -901,6 +901,7 @@ store-images.s-microsoft.com
 
 #images-eds-ssl.xboxlive.com
 images-eds-ssl.xboxlive.com
+2.16.68.59
 2.16.192.9
 2.16.208.11
 2.16.220.4
@@ -2440,6 +2441,7 @@ storeedgefd.dsx.mp.microsoft.com
 23.46.86.162
 23.46.90.164
 23.46.94.162
+23.46.118.88
 23.46.161.219
 23.46.166.28
 23.46.170.31
