@@ -8790,6 +8790,7 @@ dataautoupdate7.synology.com
 
 #database.clamav.net
 database.clamav.net
+2.16.182.148
 23.32.239.166
 23.48.172.124
 23.56.173.167
