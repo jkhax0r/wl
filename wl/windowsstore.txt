@@ -1009,6 +1009,7 @@ store-images.s-microsoft.com
 210.57.93.193
 210.203.9.146
 211.25.121.184
+211.77.98.57
 212.55.190.49
 
 #images-eds-ssl.xboxlive.com
