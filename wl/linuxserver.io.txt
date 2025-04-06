@@ -47,6 +47,7 @@ pkgs.tailscale.com
 #tailscale.com
 tailscale.com
 23.32.239.166
+23.48.172.124
 23.55.56.72
 23.55.222.107
 23.59.253.117
