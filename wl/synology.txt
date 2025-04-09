@@ -5780,6 +5780,7 @@ pkgautoupdate.synologyupdate.com
 #synoconf.synology.com
 synoconf.synology.com
 83.149.50.66
+89.208.107.49
 159.100.4.208
 185.205.210.23
 208.91.112.55
