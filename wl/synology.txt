@@ -834,6 +834,7 @@ global.synologydownload.com
 
 #s3.us-west-002.backblazeb2.com
 s3.us-west-002.backblazeb2.com
+2.16.182.148
 23.32.239.166
 23.48.172.124
 23.50.57.5
