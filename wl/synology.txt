@@ -11426,6 +11426,10 @@ utyautoupdate.synology.com
 143.204.237.89
 185.205.210.23
 208.91.112.55
+216.137.52.7
+216.137.52.14
+216.137.52.76
+216.137.52.113
 
 #utyupdate.synology.com
 utyupdate.synology.com
