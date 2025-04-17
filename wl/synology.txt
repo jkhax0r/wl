@@ -6090,6 +6090,7 @@ pkgupdate7.synology.com
 pkgautoupdate.synologyupdate.com
 2.18.188.212
 23.32.239.166
+23.55.51.174
 23.55.222.107
 23.56.173.167
 23.59.253.117
