@@ -218,6 +218,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 #plexapp.com
 plexapp.com
 2.16.182.148
+2.18.188.212
 3.211.181.10
 3.212.139.117
 3.212.231.4
