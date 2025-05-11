@@ -4391,6 +4391,7 @@ storeedgefd.dsx.mp.microsoft.com
 211.25.122.12
 212.55.190.157
 221.194.156.110
+222.138.2.184
 
 #store-images.microsoft.com
 store-images.microsoft.com
