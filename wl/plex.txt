@@ -333,6 +333,7 @@ plex.services.com
 #themoviedb.com
 themoviedb.com
 23.32.239.166
+23.48.172.124
 23.50.57.5
 23.55.51.174
 23.55.56.72
