@@ -75,6 +75,7 @@ www.opensubtitles.com
 #secure.gravatar.com
 secure.gravatar.com
 83.149.50.66
+108.160.163.112
 157.240.17.14
 168.143.162.42
 173.252.108.21
