@@ -70,6 +70,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+23.48.172.124
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
@@ -84,13 +85,16 @@ plexapp.com
 52.211.109.208
 54.229.147.49
 104.18.35.86
+104.116.243.125
 172.64.152.170
 
 #plex.services.com
 plex.services.com
+23.48.172.124
 
 #themoviedb.com
 themoviedb.com
+104.124.54.190
 
 #plex.tv
 plex.tv
@@ -191,5 +195,6 @@ pubsub.plex.bz
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
+23.59.253.117
 52.237.130.0
 
