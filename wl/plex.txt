@@ -18,6 +18,7 @@ www.opensubtitles.com
 156.154.113.141
 172.64.80.1
 172.67.217.148
+208.91.112.55
 
 #secure.gravatar.com
 secure.gravatar.com
@@ -43,6 +44,7 @@ images.plex.tv
 plex.tv
 54.171.4.190
 79.125.62.1
+208.91.112.55
 
 #metadata-static.plex.tv
 metadata-static.plex.tv
@@ -74,6 +76,7 @@ metadata.provider.plex.tv
 188.114.99.228
 188.114.99.232
 188.114.99.234/31
+208.91.112.55
 
 #plex.bz
 plex.bz
@@ -112,6 +115,7 @@ themoviedb.com
 plex.tv
 54.171.4.190
 79.125.62.1
+208.91.112.55
 
 #www.plex.tv
 www.plex.tv
