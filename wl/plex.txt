@@ -21,6 +21,7 @@ www.opensubtitles.com
 
 #secure.gravatar.com
 secure.gravatar.com
+108.160.172.200
 192.0.73.2
 
 #images.plex.tv
