@@ -6,6 +6,7 @@ i0.wp.com
 162.219.50.2
 185.205.210.23
 192.0.77.2
+208.91.112.55
 210.177.8.9
 
 #i1.wp.com
@@ -110,6 +111,7 @@ plex.bz
 83.149.50.66
 140.82.56.237
 185.205.210.23
+208.91.112.55
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
@@ -175,6 +177,7 @@ www.plex.tv
 188.114.99.232
 188.114.99.234/31
 188.114.99.236
+208.91.112.55
 
 #pubsub.plex.bz
 pubsub.plex.bz
@@ -259,6 +262,7 @@ pubsub.plex.bz
 192.46.236.7
 192.81.131.80
 194.233.164.25
+208.91.112.55
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
