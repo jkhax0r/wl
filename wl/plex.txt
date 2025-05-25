@@ -119,6 +119,7 @@ plex.bz
 tvthemes.plexapp.com.cdn.cloudflare.net
 104.18.35.86
 172.64.152.170
+208.91.112.55
 
 #plexapp.com
 plexapp.com
@@ -132,6 +133,7 @@ plexapp.com
 104.116.243.125
 140.82.56.237
 172.64.152.170
+208.91.112.55
 
 #plex.services.com
 plex.services.com
