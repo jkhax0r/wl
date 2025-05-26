@@ -43,6 +43,7 @@ www.opensubtitles.com
 
 #secure.gravatar.com
 secure.gravatar.com
+83.149.50.66
 108.160.172.200
 185.205.210.23
 192.0.73.2
@@ -92,6 +93,7 @@ metadata-static.plex.tv
 
 #metadata.provider.plex.tv
 metadata.provider.plex.tv
+83.149.50.66
 104.18.36.51
 172.64.151.205
 185.205.210.23
@@ -118,6 +120,7 @@ plex.bz
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
+83.149.50.66
 104.18.35.86
 172.64.152.170
 208.91.112.55
@@ -143,6 +146,7 @@ plex.services.com
 23.210.249.65
 23.212.62.190
 23.213.186.158
+83.149.50.66
 104.116.243.125
 143.244.220.150
 185.205.210.23
