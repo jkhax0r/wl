@@ -2,10 +2,12 @@
 #i0.wp.com
 i0.wp.com
 192.0.77.2
+192.0.78.24/31
 
 #i1.wp.com
 i1.wp.com
 192.0.77.2
+192.0.78.24/31
 192.73.243.24
 192.73.243.36
 
@@ -77,6 +79,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+23.55.51.174
 83.149.50.66
 140.82.56.237
 
@@ -110,6 +113,7 @@ plex.services.com
 
 #themoviedb.com
 themoviedb.com
+23.50.57.5
 83.149.50.66
 
 #plex.tv
@@ -136,6 +140,7 @@ www.plex.tv
 
 #pubsub.plex.bz
 pubsub.plex.bz
+23.50.57.5
 23.239.17.115
 45.33.72.65
 45.33.73.250
@@ -216,6 +221,7 @@ pubsub.plex.bz
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
+23.55.51.174
 52.237.130.0
 83.149.50.66
 84.53.133.251
