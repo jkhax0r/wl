@@ -22,6 +22,7 @@ i1.wp.com
 
 #www.opensubtitles.com
 www.opensubtitles.com
+23.48.172.124
 83.149.50.66
 104.21.75.83
 104.77.161.199
@@ -127,6 +128,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 plexapp.com
 3.215.63.104
 23.55.51.174
+23.210.249.65
 34.227.210.36
 34.232.253.160
 34.246.123.195
@@ -146,11 +148,13 @@ plexapp.com
 #plex.services.com
 plex.services.com
 2.18.205.23
+23.56.109.29
 83.149.50.66
 208.91.112.55
 
 #themoviedb.com
 themoviedb.com
+23.32.239.166
 23.50.57.5
 83.149.50.66
 184.26.91.253
