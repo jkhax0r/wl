@@ -77,6 +77,7 @@ yts.mx
 
 #updates.safing.io
 updates.safing.io
+83.149.50.66
 104.124.54.190
 167.235.104.51
 185.205.210.23
