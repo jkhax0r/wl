@@ -2014,6 +2014,7 @@ payment.synology.com
 65.9.189.34
 65.9.189.76
 65.9.189.89
+83.149.50.66
 108.138.51.3
 108.138.51.27
 108.138.51.38
@@ -2804,6 +2805,7 @@ smtp.gmail.com
 
 #download.synology.com
 download.synology.com
+83.149.50.66
 203.74.127.91
 
 #www.synology.com
@@ -3861,6 +3863,7 @@ pkgupdate7.synology.com
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
 23.215.36.126
+83.149.50.66
 104.26.4.55
 104.26.5.55
 172.67.75.147
@@ -3876,6 +3879,7 @@ pkgautoupdate.synologyupdate.com
 
 #synoconf.synology.com
 synoconf.synology.com
+83.149.50.66
 159.100.4.208
 185.205.210.23
 208.91.112.55
@@ -4425,6 +4429,7 @@ synoconfkms.synology.com
 
 #notification.synology.com
 notification.synology.com
+83.149.50.66
 138.197.222.19
 167.99.168.209
 206.189.219.255
@@ -6096,6 +6101,7 @@ update.nai.com
 104.89.103.146
 104.89.113.218
 104.89.122.180
+104.89.226.179
 104.94.121.158
 104.98.201.217
 104.100.161.145
