@@ -8042,6 +8042,7 @@ checkip.synology.com
 
 #checkip.dyndns.org
 checkip.dyndns.org
+23.61.0.252
 83.149.50.66
 103.237.147.46
 104.109.250.254
