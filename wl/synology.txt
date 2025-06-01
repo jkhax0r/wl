@@ -6555,6 +6555,7 @@ update.synology.com
 143.204.233.214
 185.205.210.23
 204.246.169.159
+208.91.112.55
 
 #help.synology.com
 help.synology.com
