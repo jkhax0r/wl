@@ -577,6 +577,7 @@ global.download.synology.com
 
 #global.synologydownload.com
 global.synologydownload.com
+23.210.249.65
 83.149.50.66
 103.21.25.248
 104.22.0.171
@@ -1554,6 +1555,9 @@ autoupdate7.synology.com
 108.138.51.42
 108.138.51.71
 108.138.51.119
+108.138.85.16
+108.138.85.69
+108.138.85.104/31
 108.138.94.24
 108.138.94.69
 108.138.94.86
@@ -2719,6 +2723,7 @@ account.synology.com
 
 #smtp.gmail.com
 smtp.gmail.com
+23.56.109.29
 23.61.0.252
 64.233.160.108/31
 64.233.161.108/31
@@ -4052,6 +4057,7 @@ pkgupdate7.synology.com
 
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
+23.55.222.107
 23.215.36.126
 83.149.50.66
 104.26.4.55
@@ -5869,6 +5875,10 @@ dataautoupdate7.synology.com
 13.226.210.16
 13.226.210.71
 13.226.210.123
+13.227.74.21
+13.227.74.24
+13.227.74.45
+13.227.74.61
 13.249.9.22/31
 13.249.9.48
 13.249.9.63
@@ -5929,6 +5939,10 @@ dataautoupdate7.synology.com
 18.155.173.26
 18.155.173.85
 18.155.173.91
+18.155.192.39
+18.155.192.57
+18.155.192.71
+18.155.192.119
 18.155.216.89
 18.155.216.104
 18.155.216.116
@@ -6217,6 +6231,7 @@ dataautoupdate7.synology.com
 
 #database.clamav.net
 database.clamav.net
+23.56.109.29
 23.210.249.65
 83.149.50.66
 104.17.196.15
@@ -8208,6 +8223,7 @@ checkip.synology.com
 
 #checkip.dyndns.org
 checkip.dyndns.org
+23.55.51.174
 23.61.0.252
 83.149.50.66
 103.237.147.46
