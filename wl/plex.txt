@@ -32,6 +32,7 @@ i1.wp.com
 #www.opensubtitles.com
 www.opensubtitles.com
 23.48.172.124
+23.55.51.174
 83.149.50.66
 104.21.75.83
 104.77.161.199
@@ -126,6 +127,7 @@ metadata.provider.plex.tv
 plex.bz
 23.55.51.174
 23.212.62.190
+23.213.186.158
 83.149.50.66
 140.82.56.237
 185.205.210.23
@@ -142,6 +144,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 #plexapp.com
 plexapp.com
 3.215.63.104
+23.32.38.142
 23.55.51.174
 23.56.173.167
 23.210.249.65
@@ -165,6 +168,7 @@ plexapp.com
 #plex.services.com
 plex.services.com
 2.18.205.23
+23.55.51.174
 23.56.109.29
 23.215.36.126
 83.149.50.66
@@ -222,6 +226,7 @@ www.plex.tv
 #pubsub.plex.bz
 pubsub.plex.bz
 2.18.205.23
+23.32.38.142
 23.50.57.5
 23.56.173.167
 23.239.17.115
