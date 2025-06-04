@@ -6650,6 +6650,7 @@ database.clamav.net
 
 #myds.synology.com
 myds.synology.com
+3.96.248.9
 15.157.137.87
 15.223.149.98
 35.182.114.12
