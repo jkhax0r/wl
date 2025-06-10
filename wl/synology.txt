@@ -6971,6 +6971,10 @@ dataupdate7.synology.com
 108.159.227.69
 185.205.210.23
 208.91.112.55
+216.137.39.15
+216.137.39.51
+216.137.39.84
+216.137.39.112
 
 #dataautoupdate7.synology.com
 dataautoupdate7.synology.com
