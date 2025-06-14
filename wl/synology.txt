@@ -7370,6 +7370,7 @@ dataupdate7.synology.com
 65.9.189.72
 65.9.189.116
 83.149.50.66
+89.208.107.49
 99.84.31.19
 99.84.31.34
 99.84.31.47
@@ -10786,6 +10787,7 @@ utyupdate.synology.com
 #synosurveillance.synology.com
 synosurveillance.synology.com
 83.149.50.66
+89.208.107.49
 123.51.153.87
 185.205.210.23
 208.91.112.55
