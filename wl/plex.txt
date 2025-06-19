@@ -12,6 +12,8 @@ i1.wp.com
 83.149.50.66
 192.0.77.2
 192.0.78.24/31
+192.73.243.24
+192.73.243.36
 210.177.8.10
 
 #www.opensubtitles.com
@@ -92,6 +94,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+83.149.50.66
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
