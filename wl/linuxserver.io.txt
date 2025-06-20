@@ -10,6 +10,7 @@ lscr.io
 54.179.124.27
 54.244.195.224
 104.97.15.167
+140.82.56.237
 
 #pkgs.tailscale.com
 pkgs.tailscale.com
