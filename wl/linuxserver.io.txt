@@ -11,6 +11,7 @@ lscr.io
 54.244.195.224
 104.97.15.167
 140.82.56.237
+208.91.112.55
 
 #pkgs.tailscale.com
 pkgs.tailscale.com
@@ -19,6 +20,7 @@ pkgs.tailscale.com
 146.112.61.106
 185.205.210.23
 199.38.181.239
+208.91.112.55
 
 #tailscale.com
 tailscale.com
@@ -28,6 +30,7 @@ tailscale.com
 140.82.56.237
 146.112.61.106
 185.205.210.23
+208.91.112.55
 
 #login.tailscale.com
 login.tailscale.com
@@ -49,4 +52,5 @@ login.tailscale.com
 52.28.255.255
 146.112.61.106
 185.205.210.23
+208.91.112.55
 
