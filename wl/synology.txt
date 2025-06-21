@@ -3252,6 +3252,7 @@ www.synology.com
 108.158.194.112
 140.82.56.237
 185.205.210.23
+208.91.112.55
 
 #pkgupdate7.synology.com
 pkgupdate7.synology.com
@@ -3534,6 +3535,10 @@ pkgupdate7.synology.com
 18.172.21.38
 18.172.21.87
 18.172.21.116
+18.172.185.65
+18.172.185.88
+18.172.185.94
+18.172.185.106
 18.172.213.40
 18.172.213.57
 18.172.213.94
@@ -5296,6 +5301,7 @@ dataupdate7.synology.com
 108.159.227.39
 108.159.227.69
 185.205.210.23
+208.91.112.55
 
 #dataautoupdate7.synology.com
 dataautoupdate7.synology.com
@@ -7622,6 +7628,7 @@ utyupdate.synology.com
 108.159.91.44
 108.159.91.54
 108.159.91.90
+208.91.112.55
 
 #synosurveillance.synology.com
 synosurveillance.synology.com
@@ -7633,6 +7640,7 @@ synosurveillance.synology.com
 #us.c2.synology.com
 us.c2.synology.com
 185.205.210.23
+208.91.112.55
 209.249.51.128
 
 #checkip.synology.com
