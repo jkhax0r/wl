@@ -104,6 +104,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+2.18.205.23
 83.149.50.66
 104.116.243.125
 140.82.56.237
@@ -173,6 +174,7 @@ www.plex.tv
 
 #pubsub.plex.bz
 pubsub.plex.bz
+23.56.173.167
 23.239.17.115
 45.33.72.65
 45.33.73.250
@@ -257,4 +259,5 @@ video.internetvideoarchive.net
 52.237.130.0
 83.149.50.66
 164.132.11.244
+184.26.91.253
 
