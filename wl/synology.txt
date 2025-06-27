@@ -663,6 +663,7 @@ global.synologydownload.com
 s3.us-west-002.backblazeb2.com
 2.18.205.23
 23.32.38.142
+23.32.239.166
 23.48.172.124
 23.50.57.5
 23.55.51.174
@@ -1845,6 +1846,10 @@ autoupdate7.synology.com
 99.84.252.12/31
 99.84.252.15
 99.84.252.92
+99.86.102.52
+99.86.102.77
+99.86.102.79
+99.86.102.81
 99.86.182.63
 99.86.182.80
 99.86.182.118
@@ -3249,6 +3254,7 @@ account.synology.com
 #smtp.gmail.com
 smtp.gmail.com
 2.18.205.23
+23.32.239.166
 23.50.57.5
 23.56.173.167
 23.202.88.30
@@ -4771,6 +4777,7 @@ pkgupdate7.synology.com
 
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
+23.48.172.124
 83.149.50.66
 104.26.4.55
 104.26.5.55
@@ -7348,6 +7355,7 @@ dataautoupdate7.synology.com
 
 #database.clamav.net
 database.clamav.net
+23.48.172.124
 23.56.173.167
 23.61.0.252
 83.149.50.66
