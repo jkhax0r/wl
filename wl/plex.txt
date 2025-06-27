@@ -159,6 +159,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 104.18.35.86
 172.64.152.170
 185.205.210.23
+208.91.112.55
 
 #plexapp.com
 plexapp.com
@@ -190,6 +191,7 @@ plex.services.com
 184.26.91.253
 184.84.165.253
 185.205.210.23
+208.91.112.55
 
 #themoviedb.com
 themoviedb.com
