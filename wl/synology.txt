@@ -739,13 +739,11 @@ global.download.synology.com
 
 #global.synologydownload.com
 global.synologydownload.com
-8.6.112.0
-8.6.112.2/31
+8.6.112.0/30
 8.6.112.4
 8.6.112.6
 8.6.112.8/31
-8.47.69.0
-8.47.69.2/31
+8.47.69.0/30
 8.47.69.4
 8.47.69.6
 8.47.69.8/31
