@@ -1205,6 +1205,7 @@ download.windowsupdate.com
 23.40.207.209
 23.40.207.217
 23.40.207.225
+23.40.247.11
 23.41.178.16/31
 23.41.178.137
 23.41.187.6
@@ -7382,6 +7383,7 @@ download.windowsupdate.com
 221.204.209.235
 221.209.92.35
 222.138.208.6
+223.196.114.25
 
 #download.microsoft.com
 download.microsoft.com
