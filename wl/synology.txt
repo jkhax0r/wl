@@ -10999,6 +10999,10 @@ help.synology.com
 
 #utyautoupdate.synology.com
 utyautoupdate.synology.com
+3.160.119.85
+3.160.119.96
+3.160.119.99
+3.160.119.108
 3.160.132.2
 3.160.132.37
 3.160.132.64
