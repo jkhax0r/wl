@@ -6353,6 +6353,7 @@ pkgupdate7.synology.com
 
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
+2.16.182.148
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
