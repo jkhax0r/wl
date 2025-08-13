@@ -23,6 +23,7 @@ www.opensubtitles.com
 
 #secure.gravatar.com
 secure.gravatar.com
+83.149.50.66
 192.0.73.2
 
 #images.plex.tv
@@ -35,6 +36,7 @@ images.plex.tv
 8.47.69.4
 8.47.69.6
 8.47.69.8/31
+83.149.50.66
 104.18.36.51
 172.64.151.205
 
