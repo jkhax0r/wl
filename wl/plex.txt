@@ -12,6 +12,7 @@ i1.wp.com
 #www.opensubtitles.com
 www.opensubtitles.com
 23.32.38.139
+83.149.50.66
 104.21.75.83
 104.117.182.91
 156.154.112.16
@@ -21,6 +22,7 @@ www.opensubtitles.com
 
 #secure.gravatar.com
 secure.gravatar.com
+83.149.50.66
 192.0.73.2
 
 #images.plex.tv
@@ -79,6 +81,7 @@ plex.bz
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
+83.149.50.66
 104.18.35.86
 172.64.152.170
 
