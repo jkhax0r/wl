@@ -109,6 +109,7 @@ plex.services.com
 
 #themoviedb.com
 themoviedb.com
+140.82.56.237
 185.205.210.23
 
 #plex.tv
