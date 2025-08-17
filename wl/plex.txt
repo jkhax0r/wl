@@ -89,6 +89,7 @@ metadata.provider.plex.tv
 plex.bz
 2.18.188.209
 83.149.50.66
+140.82.56.237
 185.205.210.23
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
