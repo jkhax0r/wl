@@ -422,6 +422,7 @@ global.download.synology.com
 108.159.102.54
 108.159.102.113
 185.205.210.23
+208.91.112.55
 
 #global.synologydownload.com
 global.synologydownload.com
@@ -440,6 +441,7 @@ global.synologydownload.com
 104.116.243.59
 172.66.147.208
 185.205.210.23
+208.91.112.55
 
 #s3.us-west-002.backblazeb2.com
 s3.us-west-002.backblazeb2.com
@@ -875,6 +877,10 @@ update7.synology.com
 108.158.90.48
 108.158.90.55
 108.158.90.94
+108.158.104.39
+108.158.104.40
+108.158.104.50
+108.158.104.63
 108.158.147.11
 108.158.147.13
 108.158.147.51
@@ -5282,6 +5288,7 @@ update.synology.com
 143.204.24.235
 143.204.69.192
 143.204.81.68
+185.205.210.23
 204.246.169.159
 208.91.112.55
 
@@ -6551,6 +6558,7 @@ utyupdate.synology.com
 108.159.91.44
 108.159.91.54
 108.159.91.90
+185.205.210.23
 
 #synosurveillance.synology.com
 synosurveillance.synology.com
