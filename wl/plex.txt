@@ -87,6 +87,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+2.16.182.145
 2.18.188.209
 83.149.50.66
 140.82.56.237
@@ -119,6 +120,7 @@ plex.services.com
 
 #themoviedb.com
 themoviedb.com
+23.213.186.155
 140.82.56.237
 185.205.210.23
 208.91.112.55
