@@ -35,6 +35,7 @@ _v2-origintunneld._tcp.argotunnel.com
 #cftunnel.com
 cftunnel.com
 83.149.50.66
+140.82.56.237
 
 #h2.cftunnel.com
 h2.cftunnel.com
