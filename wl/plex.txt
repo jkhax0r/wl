@@ -140,6 +140,7 @@ plex.services.com
 83.149.50.66
 143.244.220.150
 185.205.210.23
+208.91.112.55
 
 #themoviedb.com
 themoviedb.com
@@ -252,10 +253,12 @@ pubsub.plex.bz
 192.46.236.7
 192.81.131.80
 194.233.164.25
+208.91.112.55
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
 52.237.130.0
 83.149.50.66
 185.205.210.23
+208.91.112.55
 
