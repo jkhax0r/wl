@@ -3855,6 +3855,7 @@ pkgupdate7.synology.com
 143.204.98.59
 143.204.98.62
 143.204.98.122
+208.91.112.55
 
 #pkgautoupdate.synologyupdate.com
 pkgautoupdate.synologyupdate.com
@@ -7189,6 +7190,10 @@ utyautoupdate.synology.com
 18.239.83.51
 18.239.83.77
 18.239.83.105
+18.239.183.54
+18.239.183.89
+18.239.183.90
+18.239.183.119
 18.239.199.66
 18.239.199.78
 18.239.199.112
@@ -7349,6 +7354,7 @@ utyautoupdate.synology.com
 143.204.23.60
 143.204.23.69
 143.204.23.100
+208.91.112.55
 
 #utyupdate.synology.com
 utyupdate.synology.com
