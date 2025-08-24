@@ -136,6 +136,7 @@ plexapp.com
 plex.services.com
 2.18.205.20
 83.149.50.66
+143.244.220.150
 185.205.210.23
 
 #themoviedb.com
