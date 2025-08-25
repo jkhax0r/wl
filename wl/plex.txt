@@ -110,6 +110,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+23.213.186.155
 83.149.50.66
 140.82.56.237
 
