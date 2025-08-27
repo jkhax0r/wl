@@ -3771,6 +3771,9 @@ www.synology.com
 143.204.80.72
 143.204.80.102
 143.204.80.107
+143.204.160.26
+143.204.160.49
+143.204.160.108/31
 185.205.210.23
 
 #pkgupdate7.synology.com
@@ -6715,6 +6718,7 @@ database.clamav.net
 104.18.203.90
 104.116.243.59
 185.205.210.23
+208.91.112.55
 
 #myds.synology.com
 myds.synology.com
@@ -6924,6 +6928,7 @@ update.nai.com
 184.87.130.184
 184.87.237.252
 185.205.210.23
+208.91.112.55
 
 #update.synology.com
 update.synology.com
