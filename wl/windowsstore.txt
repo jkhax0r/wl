@@ -1632,6 +1632,7 @@ storeedgefd.dsx.mp.microsoft.com
 23.194.198.11
 23.195.10.28
 23.195.14.21
+23.195.62.166
 23.195.121.186
 23.195.156.19
 23.195.241.187
@@ -2699,6 +2700,7 @@ displaycatalog.mp.microsoft.com
 52.185.73.156
 62.0.85.12
 83.149.50.66
+185.205.210.23
 
 #licensing.mp.microsoft.com
 licensing.mp.microsoft.com
