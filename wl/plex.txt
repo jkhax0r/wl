@@ -159,6 +159,7 @@ plex.services.com
 #themoviedb.com
 themoviedb.com
 2.16.182.145
+23.56.109.26
 104.77.161.196
 140.82.56.237
 185.205.210.23
