@@ -44,10 +44,12 @@ yts.mx
 
 #updates.safing.io
 updates.safing.io
+23.55.222.104
 167.235.104.51
 
 #safing.io
 safing.io
+2.16.182.145
 140.82.56.237
 185.199.109.153
 185.205.210.23
