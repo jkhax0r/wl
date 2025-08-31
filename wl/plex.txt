@@ -44,6 +44,7 @@ images.plex.tv
 #plex.tv
 plex.tv
 52.49.56.127
+52.210.55.142
 54.216.179.106
 
 #metadata-static.plex.tv
@@ -111,6 +112,7 @@ themoviedb.com
 #plex.tv
 plex.tv
 52.49.56.127
+52.210.55.142
 54.216.179.106
 
 #www.plex.tv
