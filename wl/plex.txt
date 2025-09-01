@@ -14,6 +14,7 @@ i1.wp.com
 #www.opensubtitles.com
 www.opensubtitles.com
 23.213.186.155
+83.149.50.66
 104.21.75.83
 156.154.112.16
 156.154.112.134
@@ -103,6 +104,7 @@ plexapp.com
 #plex.services.com
 plex.services.com
 23.55.222.104
+83.149.50.66
 185.205.210.23
 208.91.112.55
 
