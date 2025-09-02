@@ -28,6 +28,7 @@ www.opensubtitles.com
 156.154.113.141
 172.64.80.1
 172.67.217.148
+208.91.112.55
 
 #secure.gravatar.com
 secure.gravatar.com
@@ -231,6 +232,7 @@ pubsub.plex.bz
 192.46.236.7
 192.81.131.80
 194.233.164.25
+208.91.112.55
 
 #video.internetvideoarchive.net
 video.internetvideoarchive.net
