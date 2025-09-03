@@ -5878,6 +5878,7 @@ dataautoupdate7.synology.com
 143.204.160.75
 143.204.160.78
 185.205.210.23
+208.91.112.55
 
 #database.clamav.net
 database.clamav.net
@@ -5894,6 +5895,7 @@ myds.synology.com
 15.222.48.215
 83.149.50.66
 185.205.210.23
+208.91.112.55
 
 #update.nai.com
 update.nai.com
