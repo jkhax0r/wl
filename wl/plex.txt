@@ -58,6 +58,7 @@ plex.tv
 52.49.56.127
 52.210.55.142
 54.216.179.106
+83.149.50.66
 
 #metadata-static.plex.tv
 metadata-static.plex.tv
@@ -130,6 +131,7 @@ plex.tv
 52.49.56.127
 52.210.55.142
 54.216.179.106
+83.149.50.66
 
 #www.plex.tv
 www.plex.tv
