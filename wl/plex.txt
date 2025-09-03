@@ -13,6 +13,7 @@ i1.wp.com
 192.0.77.2
 208.91.112.55
 210.177.8.9
+210.177.8.10
 
 #www.opensubtitles.com
 www.opensubtitles.com
@@ -28,6 +29,7 @@ www.opensubtitles.com
 156.154.113.141
 172.64.80.1
 172.67.217.148
+185.205.210.23
 208.91.112.55
 
 #secure.gravatar.com
@@ -88,6 +90,7 @@ metadata.provider.plex.tv
 8.47.69.8/31
 104.18.36.51
 172.64.151.205
+185.205.210.23
 
 #plex.bz
 plex.bz
@@ -125,6 +128,7 @@ themoviedb.com
 83.149.50.66
 104.109.250.59
 140.82.56.237
+185.205.210.23
 
 #plex.tv
 plex.tv
@@ -247,5 +251,6 @@ video.internetvideoarchive.net
 52.237.130.0
 83.149.50.66
 164.132.11.244
+185.205.210.23
 208.91.112.55
 
