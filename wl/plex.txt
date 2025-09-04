@@ -116,6 +116,7 @@ tvthemes.plexapp.com.cdn.cloudflare.net
 83.149.50.66
 104.18.35.86
 172.64.152.170
+185.205.210.23
 
 #plexapp.com
 plexapp.com
