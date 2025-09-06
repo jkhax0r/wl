@@ -576,6 +576,7 @@ s3.us-west-002.backblazeb2.com
 86.35.3.8
 149.137.142.254
 185.205.210.23
+198.135.184.22
 
 #update7.synology.com
 update7.synology.com
