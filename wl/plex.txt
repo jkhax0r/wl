@@ -143,6 +143,7 @@ plexapp.com
 104.77.161.196
 172.64.152.170
 185.205.210.23
+208.91.112.55
 
 #plex.services.com
 plex.services.com
