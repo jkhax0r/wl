@@ -64,6 +64,7 @@ h2.cftunnel.com
 
 #quic.cftunnel.com
 quic.cftunnel.com
+2.16.182.145
 23.55.222.104
 23.56.109.26
 83.149.50.66
