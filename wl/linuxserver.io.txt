@@ -46,6 +46,7 @@ tailscale.com
 #login.tailscale.com
 login.tailscale.com
 23.55.222.104
+83.149.50.66
 146.112.61.106
 146.112.61.115
 185.205.210.23
