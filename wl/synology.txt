@@ -5076,6 +5076,7 @@ synoconfkms.synology.com
 143.204.142.44
 143.204.142.49
 143.204.142.85
+208.91.112.55
 
 #notification.synology.com
 notification.synology.com
@@ -5733,6 +5734,7 @@ synology.com
 99.79.171.76
 140.82.56.237
 185.205.210.23
+208.91.112.55
 
 #dataupdate7.synology.com
 dataupdate7.synology.com
