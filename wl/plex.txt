@@ -29,6 +29,7 @@ i1.wp.com
 
 #www.opensubtitles.com
 www.opensubtitles.com
+2.18.188.209
 23.213.186.155
 83.149.50.66
 104.21.75.83
