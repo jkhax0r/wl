@@ -588,6 +588,7 @@ global.download.synology.com
 
 #global.synologydownload.com
 global.synologydownload.com
+2.18.205.20
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
@@ -7293,6 +7294,7 @@ dataautoupdate7.synology.com
 
 #database.clamav.net
 database.clamav.net
+2.18.188.209
 23.213.186.155
 83.149.50.66
 104.17.196.15
@@ -8111,6 +8113,10 @@ help.synology.com
 18.238.96.80
 18.238.96.97
 18.238.96.100
+18.238.109.70
+18.238.109.101
+18.238.109.104
+18.238.109.111
 18.238.136.11
 18.238.136.36
 18.238.136.57
