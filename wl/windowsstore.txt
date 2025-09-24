@@ -2793,6 +2793,7 @@ storeedgefd.dsx.mp.microsoft.com
 #store-images.microsoft.com
 store-images.microsoft.com
 2.16.105.114
+2.16.189.198
 2.16.193.122
 2.16.209.246
 2.16.220.200
@@ -2821,6 +2822,7 @@ store-images.microsoft.com
 2.18.233.181
 2.18.237.103
 2.19.34.49
+2.19.61.107
 2.19.189.101
 2.19.201.192
 2.19.217.184
