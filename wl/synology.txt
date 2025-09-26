@@ -736,6 +736,7 @@ global.download.synology.com
 
 #global.synologydownload.com
 global.synologydownload.com
+2.16.182.145
 2.18.188.209
 2.18.205.20
 8.6.112.0/30
@@ -11079,6 +11080,7 @@ checkip.dyndns.org
 46.226.143.58
 83.149.50.66
 103.237.147.46
+104.109.250.59
 104.116.243.59
 104.117.182.91
 132.226.8.169
