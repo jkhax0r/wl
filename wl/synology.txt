@@ -6411,6 +6411,10 @@ synoconfkms.synology.com
 143.204.142.85
 185.205.210.23
 208.91.112.55
+216.137.52.10
+216.137.52.18
+216.137.52.49
+216.137.52.98
 
 #notification.synology.com
 notification.synology.com
