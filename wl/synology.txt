@@ -9166,6 +9166,7 @@ database.clamav.net
 
 #myds.synology.com
 myds.synology.com
+3.98.43.93
 3.98.185.196
 15.157.175.217
 15.222.48.215
