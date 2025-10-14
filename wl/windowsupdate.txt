@@ -6265,6 +6265,7 @@ download.microsoft.com
 #wustat.windows.com
 wustat.windows.com
 83.149.50.66
+118.26.48.245
 185.205.210.23
 208.91.112.55
 218.93.250.18
