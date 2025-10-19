@@ -232,6 +232,7 @@ plex.services.com
 104.117.182.91
 185.205.210.23
 208.91.112.55
+218.93.250.18
 
 #themoviedb.com
 themoviedb.com
