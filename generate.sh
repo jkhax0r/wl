@@ -28,7 +28,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com"
 
 #Windows store - general things windows store hits
-./dns_probe.sh windowsstore.txt 1000 "store-images.s-microsoft.com" "images-eds-ssl.xboxlive.com" "xboxlive.com" "da.xboxservices.com" "storeedgefd.dsx.mp.microsoft.com" "store-images.microsoft.com" "displaycatalog.mp.microsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
+vsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
 
 #Windows update
 ./dns_probe.sh windowsupdate.txt 1000 "windowsupdate.microsoft.com" "update.microsoft.com" "windowsupdate.com" "download.windowsupdate.com" "download.microsoft.com" "wustat.windows.com" "ntservicepack.microsoft.com" "stats.microsoft.com"
@@ -47,7 +47,7 @@ echo "142.250.0.0/15" >> wl/google.txt
 ./dns_probe.sh cloudflared.txt 1000 "region1.v2.argotunnel.com" "region2.v2.argotunnel.com" "_v2-origintunneld._tcp.argotunnel.com" "cftunnel.com" "h2.cftunnel.com" "quic.cftunnel.com"
 
 # All plex related
-./dns_probe.sh plex.txt 1000 "i0.wp.com" "i1.wp.com" "gracenote.com" "fanart.tv" "community.plex.tv" "features.plex.tv" "github.githubassets.com" "assets.plex.tv" "analytics.plex.tv" "pubsub.plex.tv" "together.plex.tv" "metadata.provider.plex.tv" "discover.provider.plex.tv" "vod.provider.plex.tv" "www.opensubtitles.com" "secure.gravatar.com" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "themoviedb.com" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" 
+./dns_probe.sh plex.txt 1000 "i0.wp.com" "i1.wp.com" "v4.plex.tv" "scrobbles.plex.tv" "gracenote.com" "resources-cdn.plexapp.com" "fanart.tv" "community.plex.tv" "features.plex.tv" "github.githubassets.com" "assets.plex.tv" "analytics.plex.tv" "pubsub.plex.tv" "together.plex.tv" "metadata.provider.plex.tv" "discover.provider.plex.tv" "vod.provider.plex.tv" "www.opensubtitles.com" "secure.gravatar.com" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "themoviedb.com" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" 
 # Removed these 2, think it's mostly cloudfront... "m.media-amazon.com" "media-amazon.com" 
 
 
