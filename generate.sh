@@ -47,7 +47,7 @@ echo "142.250.0.0/15" >> wl/google.txt
 ./dns_probe.sh cloudflared.txt 1000 "region1.v2.argotunnel.com" "region2.v2.argotunnel.com" "_v2-origintunneld._tcp.argotunnel.com" "cftunnel.com" "h2.cftunnel.com" "quic.cftunnel.com"
 
 # All plex related
-./dns_probe.sh plex.txt 1000 "i0.wp.com" "i1.wp.com" "community.plex.tv" "features.plex.tv" "github.githubassets.com" "assets.plex.tv" "analytics.plex.tv" "pubsub.plex.tv" "together.plex.tv" "metadata.provider.plex.tv" "discover.provider.plex.tv" "vod.provider.plex.tv" "www.opensubtitles.com" "secure.gravatar.com" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "themoviedb.com" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" 
+./dns_probe.sh plex.txt 1000 "i0.wp.com" "i1.wp.com" "gracenote.com" "fanart.tv" "community.plex.tv" "features.plex.tv" "github.githubassets.com" "assets.plex.tv" "analytics.plex.tv" "pubsub.plex.tv" "together.plex.tv" "metadata.provider.plex.tv" "discover.provider.plex.tv" "vod.provider.plex.tv" "www.opensubtitles.com" "secure.gravatar.com" "images.plex.tv" "plex.tv" "metadata-static.plex.tv" "metadata.provider.plex.tv" "plex.bz" "tvthemes.plexapp.com.cdn.cloudflare.net" "plexapp.com" "plex.services.com" "themoviedb.com" "plex.tv" "www.plex.tv" "pubsub.plex.bz" "video.internetvideoarchive.net" 
 # Removed these 2, think it's mostly cloudfront... "m.media-amazon.com" "media-amazon.com" 
 
 
