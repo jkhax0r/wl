@@ -28,7 +28,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com"
 
 #Windows store - general things windows store hits
-vsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
+./dns_probe.sh windowsstore.txt 1000 "store-images.s-microsoft.com" "images-eds-ssl.xboxlive.com" "xboxlive.com" "da.xboxservices.com" "storeedgefd.dsx.mp.microsoft.com" "store-images.microsoft.com" "displaycatalog.mp.microsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
 
 #Windows update
 ./dns_probe.sh windowsupdate.txt 1000 "windowsupdate.microsoft.com" "update.microsoft.com" "windowsupdate.com" "download.windowsupdate.com" "download.microsoft.com" "wustat.windows.com" "ntservicepack.microsoft.com" "stats.microsoft.com"
