@@ -1,12 +1,16 @@
 
 #i0.wp.com
 i0.wp.com
+139.144.207.208
+139.144.210.113
 185.205.210.23
 192.0.77.2
 208.91.112.55
 
 #i1.wp.com
 i1.wp.com
+139.144.207.208
+139.144.210.113
 185.205.210.23
 192.0.77.2
 208.91.112.55
@@ -78,6 +82,7 @@ features.plex.tv
 
 #github.githubassets.com
 github.githubassets.com
+83.149.50.66
 185.199.108.154
 185.199.109.154
 185.199.110.154
@@ -104,6 +109,7 @@ analytics.plex.tv
 8.47.69.0/30
 8.47.69.6
 8.47.69.8/31
+83.149.50.66
 104.18.36.51
 172.64.151.205
 208.91.112.55
@@ -300,6 +306,7 @@ metadata.provider.plex.tv
 
 #plex.bz
 plex.bz
+83.149.50.66
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
