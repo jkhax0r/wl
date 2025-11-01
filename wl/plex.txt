@@ -2,6 +2,7 @@
 #i0.wp.com
 i0.wp.com
 42.200.1.97
+83.149.50.66
 192.0.77.2
 208.91.112.55
 
@@ -256,6 +257,7 @@ vod.provider.plex.tv
 
 #www.opensubtitles.com
 www.opensubtitles.com
+83.149.50.66
 104.21.75.83
 172.64.80.1
 172.67.217.148
@@ -263,6 +265,7 @@ www.opensubtitles.com
 
 #secure.gravatar.com
 secure.gravatar.com
+83.149.50.66
 192.0.73.2
 
 #images.plex.tv
@@ -317,6 +320,7 @@ plex.bz
 
 #tvthemes.plexapp.com.cdn.cloudflare.net
 tvthemes.plexapp.com.cdn.cloudflare.net
+83.149.50.66
 104.18.35.86
 172.64.152.170
 208.91.112.55
@@ -340,6 +344,7 @@ plex.services.com
 
 #themoviedb.com
 themoviedb.com
+83.149.50.66
 208.91.112.55
 
 #plex.tv
