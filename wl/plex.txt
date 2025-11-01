@@ -244,6 +244,8 @@ discover.provider.plex.tv
 8.47.69.8/31
 104.18.36.51
 172.64.151.205
+188.114.98.0
+188.114.99.0
 
 #vod.provider.plex.tv
 vod.provider.plex.tv
