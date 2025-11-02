@@ -21,6 +21,7 @@ tailscale.com
 23.56.109.26
 76.76.21.21
 162.159.50.3
+208.91.112.55
 
 #login.tailscale.com
 login.tailscale.com
@@ -29,4 +30,5 @@ login.tailscale.com
 192.200.0.104/29
 192.200.0.112/30
 192.200.0.116
+208.91.112.55
 
