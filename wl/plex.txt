@@ -280,6 +280,7 @@ vod.provider.plex.tv
 
 #www.opensubtitles.com
 www.opensubtitles.com
+2.18.205.20
 59.185.3.14
 83.149.50.66
 104.21.75.83
@@ -384,6 +385,7 @@ plex.services.com
 
 #themoviedb.com
 themoviedb.com
+23.32.38.139
 83.149.50.66
 208.91.112.55
 
@@ -409,6 +411,8 @@ www.plex.tv
 83.149.50.66
 104.18.36.51
 172.64.151.205
+188.114.98.0
+188.114.99.0
 208.91.112.55
 
 #pubsub.plex.bz
