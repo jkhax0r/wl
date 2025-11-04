@@ -93,6 +93,7 @@ community.plex.tv
 8.47.69.8/31
 83.149.50.66
 104.18.36.51
+104.109.250.59
 172.64.151.205
 185.205.210.23
 
@@ -263,6 +264,7 @@ metadata.provider.plex.tv
 
 #discover.provider.plex.tv
 discover.provider.plex.tv
+2.18.205.20
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
@@ -428,6 +430,7 @@ plex.tv
 
 #www.plex.tv
 www.plex.tv
+2.18.205.20
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
