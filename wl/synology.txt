@@ -3398,6 +3398,7 @@ pkgautoupdate.synologyupdate.com
 synoconf.synology.com
 159.100.4.208
 185.205.210.23
+208.91.112.55
 
 #synoconfkms.synology.com
 synoconfkms.synology.com
