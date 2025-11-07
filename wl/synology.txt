@@ -4224,6 +4224,7 @@ synoconfkms.synology.com
 143.204.142.44
 143.204.142.49
 143.204.142.85
+185.205.210.23
 208.91.112.55
 
 #notification.synology.com
