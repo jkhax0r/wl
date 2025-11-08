@@ -1450,6 +1450,9 @@ autoupdate7.synology.com
 108.138.85.16
 108.138.85.69
 108.138.85.104/31
+108.139.60.12
+108.139.60.67
+108.139.60.92/31
 108.139.200.24/31
 108.139.200.89
 108.139.200.104
@@ -4821,6 +4824,7 @@ dataupdate.synology.com
 143.204.55.72
 143.204.55.104
 185.205.210.23
+208.91.112.55
 
 #synology.com
 synology.com
@@ -7641,6 +7645,7 @@ utyupdate.synology.com
 synosurveillance.synology.com
 83.149.50.66
 123.51.153.87
+208.91.112.55
 
 #us.c2.synology.com
 us.c2.synology.com
