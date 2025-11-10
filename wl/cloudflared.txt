@@ -19,6 +19,7 @@ region1.v2.argotunnel.com
 
 #region2.v2.argotunnel.com
 region2.v2.argotunnel.com
+83.149.50.66
 104.117.182.91
 185.205.210.23
 198.41.200.13
