@@ -64,6 +64,7 @@ scrobbles.plex.tv
 
 #gracenote.com
 gracenote.com
+74.40.74.110/31
 83.149.50.66
 185.205.210.23
 192.0.66.38
