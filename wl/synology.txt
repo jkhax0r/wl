@@ -3775,6 +3775,7 @@ www.synology.com
 143.204.194.122
 143.204.194.127
 185.205.210.23
+208.91.112.55
 
 #pkgupdate7.synology.com
 pkgupdate7.synology.com
@@ -6718,6 +6719,7 @@ database.clamav.net
 104.109.250.59
 104.117.182.91
 185.205.210.23
+208.91.112.55
 
 #myds.synology.com
 myds.synology.com

@@ -59,6 +59,7 @@ cftunnel.com
 
 #h2.cftunnel.com
 h2.cftunnel.com
+83.149.50.66
 104.77.161.196
 185.205.210.23
 198.135.184.22
