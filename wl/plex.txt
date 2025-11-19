@@ -158,6 +158,7 @@ github.githubassets.com
 
 #assets.plex.tv
 assets.plex.tv
+2.18.188.209
 2.18.205.20
 8.6.112.0/30
 8.6.112.4
@@ -307,6 +308,7 @@ together.plex.tv
 
 #metadata.provider.plex.tv
 metadata.provider.plex.tv
+2.18.188.209
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
@@ -417,6 +419,7 @@ images.plex.tv
 
 #plex.tv
 plex.tv
+2.18.188.209
 2.18.205.20
 23.32.38.139
 23.55.51.171
@@ -455,6 +458,7 @@ metadata-static.plex.tv
 
 #metadata.provider.plex.tv
 metadata.provider.plex.tv
+2.18.188.209
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
@@ -533,6 +537,7 @@ themoviedb.com
 
 #plex.tv
 plex.tv
+2.18.188.209
 2.18.205.20
 23.32.38.139
 23.55.51.171
