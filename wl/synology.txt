@@ -1234,6 +1234,10 @@ update7.synology.com
 
 #autoupdate7.synology.com
 autoupdate7.synology.com
+3.160.5.9
+3.160.5.37
+3.160.5.53
+3.160.5.90
 3.160.77.19
 3.160.77.42
 3.160.77.56
