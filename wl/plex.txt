@@ -408,6 +408,7 @@ secure.gravatar.com
 
 #images.plex.tv
 images.plex.tv
+2.18.205.20
 8.6.112.0/30
 8.6.112.4
 8.6.112.6
