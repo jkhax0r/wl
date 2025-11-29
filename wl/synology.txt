@@ -9196,6 +9196,7 @@ utyautoupdate.synology.com
 143.204.142.28
 143.204.142.36
 143.204.142.106
+185.205.210.23
 208.91.112.55
 
 #utyupdate.synology.com
