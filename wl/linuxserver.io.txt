@@ -16,9 +16,12 @@ pkgs.tailscale.com
 #tailscale.com
 tailscale.com
 76.76.21.21
+156.154.112.134
+156.154.113.134
 
 #login.tailscale.com
 login.tailscale.com
+2.18.188.209
 192.200.0.101
 192.200.0.102/31
 192.200.0.104/29
