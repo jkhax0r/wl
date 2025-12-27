@@ -19,7 +19,6 @@ tailscale.com
 
 #login.tailscale.com
 login.tailscale.com
-2.18.188.209
 192.200.0.101
 192.200.0.102/31
 192.200.0.104/29
