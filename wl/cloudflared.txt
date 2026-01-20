@@ -27,12 +27,14 @@ region2.v2.argotunnel.com
 
 #_v2-origintunneld._tcp.argotunnel.com
 _v2-origintunneld._tcp.argotunnel.com
+23.213.186.155
 
 #cftunnel.com
 cftunnel.com
 
 #h2.cftunnel.com
 h2.cftunnel.com
+23.55.51.171
 
 #quic.cftunnel.com
 quic.cftunnel.com
