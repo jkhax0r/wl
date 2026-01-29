@@ -30,11 +30,9 @@ _v2-origintunneld._tcp.argotunnel.com
 
 #cftunnel.com
 cftunnel.com
-104.77.161.196
 
 #h2.cftunnel.com
 h2.cftunnel.com
-104.109.250.59
 
 #quic.cftunnel.com
 quic.cftunnel.com
