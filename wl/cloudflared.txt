@@ -33,6 +33,7 @@ cftunnel.com
 
 #h2.cftunnel.com
 h2.cftunnel.com
+23.32.38.139
 
 #quic.cftunnel.com
 quic.cftunnel.com
