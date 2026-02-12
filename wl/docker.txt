@@ -55,7 +55,7 @@ registry-1.docker.io
 
 #docker.io
 docker.io
+3.231.1.209
 34.196.40.248
 34.236.75.31
-52.23.0.31
 
