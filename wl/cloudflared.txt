@@ -1,6 +1,7 @@
 
 #region1.v2.argotunnel.com
 region1.v2.argotunnel.com
+23.55.51.171
 198.41.192.7
 198.41.192.27
 198.41.192.37
