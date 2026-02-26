@@ -8,6 +8,5 @@ updates.safing.io
 
 #safing.io
 safing.io
-83.149.50.66
 185.199.109.153
 
