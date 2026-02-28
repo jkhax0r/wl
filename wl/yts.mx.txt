@@ -1,8 +1,7 @@
 
 #yts.mx
 yts.mx
-156.154.112.141
-156.154.113.141
+104.109.250.59
 
 #updates.safing.io
 updates.safing.io
