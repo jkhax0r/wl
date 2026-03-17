@@ -11,6 +11,7 @@ lscr.io
 
 #pkgs.tailscale.com
 pkgs.tailscale.com
+83.149.50.66
 199.38.181.239
 
 #tailscale.com
