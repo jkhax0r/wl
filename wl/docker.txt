@@ -49,7 +49,7 @@ registry-1.docker.io
 
 #docker.io
 docker.io
+50.19.123.170
 54.164.2.94
 98.88.196.92
-98.95.21.32
 
