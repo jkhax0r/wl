@@ -33,6 +33,7 @@ cftunnel.com
 
 #h2.cftunnel.com
 h2.cftunnel.com
+98.8.56.210
 
 #quic.cftunnel.com
 quic.cftunnel.com
