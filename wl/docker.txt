@@ -22,7 +22,6 @@ index.docker.io
 100.24.238.134
 100.28.60.203
 100.50.6.117
-208.91.112.55
 
 #registry-1.docker.io
 registry-1.docker.io
@@ -47,7 +46,6 @@ registry-1.docker.io
 100.24.238.134
 100.28.60.203
 100.50.6.117
-208.91.112.55
 
 #docker.io
 docker.io
