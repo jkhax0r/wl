@@ -33,6 +33,7 @@ cftunnel.com
 
 #h2.cftunnel.com
 h2.cftunnel.com
+83.149.50.66
 
 #quic.cftunnel.com
 quic.cftunnel.com
