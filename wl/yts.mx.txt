@@ -4,7 +4,6 @@ yts.mx
 
 #updates.safing.io
 updates.safing.io
-104.109.250.59
 167.235.104.51
 
 #safing.io
