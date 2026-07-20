@@ -68,6 +68,7 @@ registry-1.docker.io
 #docker.io
 docker.io
 3.230.20.180
+34.224.111.188
 52.2.76.183
 54.198.199.164
 
