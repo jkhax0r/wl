@@ -22,7 +22,10 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh cas.txt 1000 "acme-v02.api.letsencrypt.org" "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.o.lencr.org" "r11.i.lencr.org" "r10.i.lencr.org" "e5.o.lencr.org" "lencr.org" "crl.certum.pl" "x1.c.lencr.org" "ocsps.ssl.com" "ctldl.windowsupdate.com" "crl.verisign.com" "c.pki.goog" "pki.goog" "verisign.com" "ssl.com" "ocsp.pki.goog" "certum.pl" "crt.buypass.no" "buypass.no" "ocsp-certum.com" "subca.ocsp-certum.com" "crl.entrust.net" "entrust.net" "usertrust.com" "ocsp.usertrust.com" "crl3.digicert.com" "ocsp.digicert.com" "crl4.digicert.com" "comodoca.com"
 
 # Docker
-./dns_probe.sh docker.txt 1000 "index.docker.io" "registry-1.docker.io" "docker.io" "production.cloudfront.docker.com" "docker.com"
+./dns_probe.sh docker.txt 1000 "index.docker.io" "registry-1.docker.io" "docker.io" "production.cloudfront.docker.com" "docker.com" "download.docker.com" "ppa.launchpadcontent.net" 
+
+# Ubuntu Updates
+./dns_probe.sh ubuntuupdate.txt 1000 "archive.ubuntu.com" "security.ubuntu.com" "us.archive.ubuntu.com" "api.snapcraft.io" "dashboard.snapcraft.io" "login.ubuntu.com" "contracts.canonical.com" "esm.ubuntu.com"
 
 # Unifi
 ./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com"
