@@ -28,7 +28,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh ubuntuupdate.txt 1000 "archive.ubuntu.com" "security.ubuntu.com" "us.archive.ubuntu.com" "api.snapcraft.io" "dashboard.snapcraft.io" "login.ubuntu.com" "contracts.canonical.com" "esm.ubuntu.com"
 
 # Unifi
-./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com"
+./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com" "ui.com" "www.ui.com"
 
 # linuxserver.io
 ./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com"
