@@ -24,6 +24,9 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 # Docker
 ./dns_probe.sh docker.txt 1000 "index.docker.io" "registry-1.docker.io" "docker.io" "production.cloudfront.docker.com" "docker.com"
 
+# Unifi
+./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com"
+
 # linuxserver.io
 ./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com"
 
