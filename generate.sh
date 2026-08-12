@@ -31,7 +31,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com" "ui.com" "www.ui.com"
 
 # linuxserver.io
-./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com"
+./dns_probe.sh linuxserver.io.txt 1000 "lscr.io" "pkgs.tailscale.com" "tailscale.com" "login.tailscale.com" "ghcr.io" "gateway.scarf.sh"
 
 #Windows store - general things windows store hits
 ./dns_probe.sh windowsstore.txt 1000 "store-images.s-microsoft.com" "images-eds-ssl.xboxlive.com" "xboxlive.com" "da.xboxservices.com" "storeedgefd.dsx.mp.microsoft.com" "store-images.microsoft.com" "displaycatalog.mp.microsoft.com" "licensing.mp.microsoft.com" "mp.microsoft.com"
