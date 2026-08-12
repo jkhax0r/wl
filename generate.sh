@@ -21,7 +21,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 #Certificate authorities
 ./dns_probe.sh cas.txt 1000 "acme-v02.api.letsencrypt.org" "one.digicert.com" "crl.one.digicert.com" "ocsp.one.digicert.com" "cacerts.one.digicert.com" "r11.o.lencr.org" "r11.i.lencr.org" "r10.i.lencr.org" "e5.o.lencr.org" "lencr.org" "crl.certum.pl" "x1.c.lencr.org" "ocsps.ssl.com" "ctldl.windowsupdate.com" "crl.verisign.com" "c.pki.goog" "pki.goog" "verisign.com" "ssl.com" "ocsp.pki.goog" "certum.pl" "crt.buypass.no" "buypass.no" "ocsp-certum.com" "subca.ocsp-certum.com" "crl.entrust.net" "entrust.net" "usertrust.com" "ocsp.usertrust.com" "crl3.digicert.com" "ocsp.digicert.com" "crl4.digicert.com" "comodoca.com"
 
-# Docker
+# Docker update pulls
 ./dns_probe.sh docker.txt 1000 "hub.docker.com" "registry-1.docker.io" "production.cloudfront.docker.com" "dhi.io" "registry.scout.docker.com"
 
 # Ubuntu Updates
