@@ -25,7 +25,7 @@ curl -s https://d7uri8nf7uskq.cloudfront.net/tools/list-cloudfront-ips | jq '.CL
 ./dns_probe.sh docker.txt 1000 "hub.docker.com" "registry-1.docker.io" "production.cloudfront.docker.com" "dhi.io" "registry.scout.docker.com" "docker.io"
 
 # Ubuntu Updates
-./dns_probe.sh ubuntuupdate.txt 1000 "archive.ubuntu.com" "security.ubuntu.com" "us.archive.ubuntu.com"
+./dns_probe.sh ubuntuupdate.txt 1000 "archive.ubuntu.com" "security.ubuntu.com" "us.archive.ubuntu.com" "debian.map.fastlydns.net"
 
 # Unifi
 ./dns_probe.sh unifi.txt 1000 "unifi.ui.com" "account.ui.com" "dl.ui.com" "community.ui.com" "ui.com" "www.ui.com"
