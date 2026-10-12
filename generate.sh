@@ -69,6 +69,21 @@ for file in *; do
 	iprange $file --except ../exclude-ips.txt > ../wl_min/$file
 done
 cd ..
+
+# One URL-table feed for the TV block rule; keep the last good feed on failure.
+if curl --fail --silent --show-error --retry 2 \
+	-o data/youtube-ipv4.download \
+	https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/cidr4.txt &&
+	iprange data/youtube-ipv4.download --except exclude-ips.txt > data/youtube-ipv4.normalized &&
+	test -s data/youtube-ipv4.normalized && test -s wl_min/playworks.txt &&
+	cat data/youtube-ipv4.normalized wl_min/playworks.txt | iprange > data/tv-blocked.next &&
+	test -s data/tv-blocked.next; then
+	cp data/tv-blocked.next wl/tv-blocked.txt
+	cp data/tv-blocked.next wl_min/tv-blocked.txt
+else
+	echo "TV block feed refresh failed; retaining the last good combined list" >&2
+fi
+
 git add wl_min/*
 git add wl/*
 
