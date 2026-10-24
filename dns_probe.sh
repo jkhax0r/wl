@@ -66,6 +66,11 @@ do
 	#Famous one-liner to store only unique lines in a file - http://www.catonmat.net/blog/awk-one-liners-explained-part-two/
 	awk '!a[$0]++' data/$domain.txt > data/$domain.txt.tmp
 
+	# This is a FortiGuard DNS block portal, not Last.fm artwork.
+	if [[ "$domain" == "lastfm-img.freetls.fastly.net" ]]; then
+		sed -i '/^208\.91\.112\.55$/d' data/$domain.txt.tmp
+	fi
+
 	# Sort and remove BOGON networks, then compact into CIDR ranges using iprange utility 
 	cat data/$domain.txt.tmp | sort | uniq | egrep -v "^${BOGON_REGEX}" | iprange - --except exclude-ips.txt | iprange > data/$domain.txt
 	rm -f data/$domain.txt.tmp	
